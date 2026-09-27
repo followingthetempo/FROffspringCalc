@@ -1,0 +1,1528 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="frbreeding.css "type="text/css">
+  <link rel="stylesheet" href="colours.css" type="text/css">
+ </head>
+
+ <body>
+  <div align = "center"> <h1>Flight Rising Breeding Chance Calculator</h1></div>
+  <!-- Selecting parents -->
+  <div align= "center"> 
+   <label for="father">Parent 1</label>
+   <select name="father"id="father">
+    <optgroup label="Moderns">
+    <option value="Bogsneak">Bogsneak</option>
+    <option value="Coatl">Coatl</option>
+    <option value="Fae">Fae</option>
+    <option value="Fathom">Fathom</option>
+    <option value="Guardian">Guardian</option>
+    <option value="Imperial">Imperial</option>
+    <option value="Mirror">Mirror</option>
+    <option value="Nocturne">Nocturne</option>
+    <option value="Obelisk">Obelisk</option>
+    <option value="Pearlcatcher">Pearlcatcher</option>
+    <option value="Ridgeback">Ridgeback</option>
+    <option value="Skydancer">Skydancer</option>
+    <option value="Snapper">Snapper</option>
+    <option value="Spiral">Spiral</option>
+    <option value="Tundra">Tundra</option>
+    <option value="Wildclaw">Wildclaw</option>
+   </optgroup>
+   <optgroup label="Ancients">
+    <option value="Aberration">Aberration</option>
+    <option value="Aether">Aether</option>
+    <option value="Auraboa">Auraboa</option>
+    <option value="Banescale">Banescale</option>
+    <option value="Cirrus">Cirrus</option>
+    <option value="Dusthide">Dusthide</option>
+    <option value="Everlux">Everlux</option>
+    <option value="Gaoler">Gaoler</option>
+    <option value="Sandsurge">Sandsurge</option>
+    <option value="Thorntail">Thorntail</option>
+    <option value="Undertide">Undertide</option>
+    <option value="Veilspun">Veilspun</option>
+    <option value="Vigil">Vigil</option>
+   </optgroup>
+   </select>
+
+   <label for="mother">Parent 2</label>
+   <select name="mother"id="mother">
+    <optgroup label="Moderns">
+    <option value="Bogsneak">Bogsneak</option>
+    <option value="Coatl">Coatl</option>
+    <option value="Fae">Fae</option>
+    <option value="Fathom">Fathom</option>
+    <option value="Guardian">Guardian</option>
+    <option value="Imperial">Imperial</option>
+    <option value="Mirror">Mirror</option>
+    <option value="Nocturne">Nocturne</option>
+    <option value="Obelisk">Obelisk</option>
+    <option value="Pearlcatcher">Pearlcatcher</option>
+    <option value="Ridgeback">Ridgeback</option>
+    <option value="Skydancer">Skydancer</option>
+    <option value="Snapper">Snapper</option>
+    <option value="Spiral">Spiral</option>
+    <option value="Tundra">Tundra</option>
+    <option value="Wildclaw">Wildclaw</option>
+   </optgroup>
+   <optgroup label="Ancients">
+    <option value="Aberration">Aberration</option>
+    <option value="Aether">Aether</option>
+    <option value="Auraboa">Auraboa</option>
+    <option value="Banescale">Banescale</option>
+    <option value="Cirrus">Cirrus</option>
+    <option value="Dusthide">Dusthide</option>
+    <option value="Everlux">Everlux</option>
+    <option value="Gaoler">Gaoler</option>
+    <option value="Sandsurge">Sandsurge</option>
+    <option value="Thorntail">Thorntail</option>
+    <option value="Undertide">Undertide</option>
+    <option value="Veilspun">Veilspun</option>
+    <option value="Vigil">Vigil</option>
+   </optgroup>
+   </select>
+  </div>
+
+ <!--Parent 1 fields-->
+  <!-- Selecting primary gene+colour -->
+   <div align= "center"> 
+   <label for="primary1">Primary Gene</label>
+   <select name="primary1"id="primary1">
+    <option value="6">Bar</option>
+    <option value="0">Basic</option>
+    <option value="232">Boa</option>
+    <option value="110">Boulder</option>
+    <option value="412">Checkers</option>
+    <option value="10">Cherub</option>
+    <option value="337">Chorus</option>
+    <option value="237">Chrysocolla</option>
+    <option value="213">Cinder</option>
+    <option value="3">Clown</option>
+    <option value="7">Crystal</option>
+    <option value="42">Fade</option>
+    <option value="16">Falcon</option>
+    <option value="136">Fern</option>
+    <option value="82">Flaunt</option>
+    <option value="12">Giraffe</option>
+    <option value="88">Ground</option>
+    <option value="170">Harlequin</option>
+    <option value="1">Iridescent</option>
+    <option value="19">Jaguar</option>
+    <option value="14">Jupiter</option>
+    <option value="26">Laced</option>
+    <option value="40">Leopard</option>
+    <option value="25">Lionfish</option>
+    <option value="411">Love</option>
+    <option value="17">Metallic</option>
+    <option value="58">Mosaic</option>
+    <option value="283">Orb</option>
+    <option value="13">Petals</option>
+    <option value="318">Petrified</option>
+    <option value="87">Pharaoh</option>
+    <option value="9">Piebald</option>
+    <option value="22">Pinstripe</option>
+    <option value="11">Poison</option>
+    <option value="23">Python</option>
+    <option value="84">Ribbon</option>
+    <option value="5">Ripple</option>
+    <option value="492">Sailfish</option>
+    <option value="18">Savanna</option>
+    <option value="15">Skink</option>
+    <option value="41">Slime</option>
+    <option value="400">Soil</option>
+    <option value="4">Speckle</option>
+    <option value="24">Starmap</option>
+    <option value="59">Stitched</option>
+    <option value="57">Swirl</option>
+    <option value="21">Tapir</option>
+    <option value="114">Tide</option>
+    <option value="2">Tiger</option>
+    <option value="450">Varnish</option>
+    <option value="8">Vipera</option>
+    <option value="20">Wasp</option>
+   </select>
+
+   <label for="colour">Primary Colour</label>
+   <select name="primarycol1"id="primarycol1">
+    <option class="Maize" value="1">Maize</option>
+    <option class="Cream" value="163">Cream</option>
+    <option class="Antique" value="97">Antique</option>
+    <option class="White" value="2">White</option>
+    <option class="Moon" value="74">Moon</option>
+    <option class="Ice" value="3">Ice</option>
+    <option class="Orca" value="131">Orca</option>
+    <option class="Platinum" value="4">Platinum</option>
+    <option class="Silver" value="5">Silver</option>
+    <option class="Dust" value="146">Dust</option>
+    <option class="Grey" value="6">Grey</option>
+    <option class="Smoke" value="91">Smoke</option>
+    <option class="Gloom" value="98">Gloom</option>
+    <option class="Lead" value="118">Lead</option>
+    <option class="Shale" value="177">Shale</option>
+    <option class="Flint" value="129">Flint</option>
+    <option class="Charcoal" value="7">Charcoal</option>
+    <option class="Coal" value="8">Coal</option>
+    <option class="Oilslick" value="70">Oilslick</option>
+    <option class="Black" value="9">Black</option>
+    <option class="Obsidian" value="10">Obsidian</option>
+    <option class="Eldritch" value="176">Eldritch</option>
+    <option class="Midnight" value="11">Midnight</option>
+    <option class="Shadow" value="12">Shadow</option>
+    <option class="Blackberry" value="127">Blackberry</option>
+    <option class="Mulberry" value="13">Mulberry</option>
+    <option class="Plum" value="92">Plum</option>
+    <option class="Wisteria" value="119">Wisteria</option>
+    <option class="Thistle" value="14">Thistle</option>
+    <option class="Fog" value="137">Fog</option>
+    <option class="Mist" value="150">Mist</option>
+    <option class="Lavender" value="15">Lavender</option>
+    <option class="Heather" value="68">Heather</option>
+    <option class="Purple" value="16">Purple</option>
+    <option class="Orchid" value="69">Orchid</option>
+    <option class="Amethyst" value="114">Amethyst</option>
+    <option class="Nightshade" value="175">Nightshade</option>
+    <option class="Violet" value="17">Violet</option>
+    <option class="Grape" value="147">Grape</option>
+    <option class="Royal" value="18">Royal</option>
+    <option class="Eggplant" value="111">Eggplant</option>
+    <option class="Iris" value="82">Iris</option>
+    <option class="Storm" value="19">Storm</option>
+    <option class="Twilight" value="174">Twilight</option>
+    <option class="Indigo" value="112">Indigo</option>
+    <option class="Sapphire" value="71">Sapphire</option>
+    <option class="Navy" value="20">Navy</option>
+    <option class="Cobalt" value="136">Cobalt</option>
+    <option class="Ultramarine" value="90">Ultramarine</option>
+    <option class="Blue" value="21">Blue</option>
+    <option class="Periwinkle" value="135">Periwinkle</option>
+    <option class="Lapis" value="148">Lapis</option>
+    <option class="Splash" value="22">Splash</option>
+    <option class="Cornflower" value="145">Cornflower</option>
+    <option class="Sky" value="23">Sky</option>
+    <option class="Stonewash" value="24">Stonewash</option>
+    <option class="Overcast" value="126">Overcast</option>
+    <option class="Steel" value="25">Steel</option>
+    <option class="Denim" value="26">Denim</option>
+    <option class="Abyss" value="96">Abyss</option>
+    <option class="Phthalo" value="151">Phthalo</option>
+    <option class="Azure" value="27">Azure</option>
+    <option class="Caribbean" value="28">Caribbean</option>
+    <option class="Teal" value="29">Teal</option>
+    <option class="Cerulean" value="117">Cerulean</option>
+    <option class="Cyan" value="89">Cyan</option>
+    <option class="Robin" value="99">Robin</option>
+    <option class="Aqua" value="30">Aqua</option>
+    <option class="Turquoise" value="149">Turquoise</option>
+    <option class="Spruce" value="100">Spruce</option>
+    <option class="Pistachio" value="125">Pistachio</option>
+    <option class="Seafoam" value="31">Seafoam</option>
+    <option class="Mint" value="152">Mint</option>
+    <option class="Jade" value="32">Jade</option>
+    <option class="Spearmint" value="78">Spearmint</option>
+    <option class="Thicket" value="141">Thicket</option>
+    <option class="Peacock" value="134">Peacock</option>
+    <option class="Emerald" value="33">Emerald</option>
+    <option class="Shamrock" value="80">Shamrock</option>
+    <option class="Jungle" value="34">Jungle</option>
+    <option class="Hunter" value="81">Hunter</option>
+    <option class="Forest" value="35">Forest</option>
+    <option class="Camo" value="154">Camo</option>
+    <option class="Algae" value="153">Algae</option>
+    <option class="Swamp" value="36">Swamp</option>
+    <option class="Avocado" value="37">Avocado</option>
+    <option class="Green" value="38">Green</option>
+    <option class="Fern" value="113">Fern</option>
+    <option class="Mantis" value="79">Mantis</option>
+    <option class="Pear" value="101">Pear</option>
+    <option class="Leaf" value="39">Leaf</option>
+    <option class="Radioactive" value="130">Radioactive</option>
+    <option class="Honeydew" value="102">Honeydew</option>
+    <option class="Peridot" value="144">Peridot</option>
+    <option class="Chartreuse" value="155">Chartreuse</option>
+    <option class="Spring" value="40">Spring</option>
+    <option class="Crocodile" value="173">Crocodile</option>
+    <option class="Olive" value="123">Olive</option>
+    <option class="Murk" value="142">Murk</option>
+    <option class="Moss" value="115">Moss</option>
+    <option class="Goldenrod" value="41">Goldenrod</option>
+    <option class="Amber" value="103">Amber</option>
+    <option class="Honey" value="93">Honey</option>
+    <option class="Lemon" value="42">Lemon</option>
+    <option class="Yellow" value="104">Yellow</option>
+    <option class="Grapefruit" value="128">Grapefruit</option>
+    <option class="Banana" value="43">Banana</option>
+    <option class="Sanddollar" value="110">Sanddollar</option>
+    <option class="Flaxen" value="139">Flaxen</option>
+    <option class="Ivory" value="44">Ivory</option>
+    <option class="Buttercup" value="167">Buttercup</option>
+    <option class="Gold" value="45">Gold</option>
+    <option class="Metals" value="140">Metals</option>
+    <option class="Marigold" value="75">Marigold</option>
+    <option class="Sunshine" value="46">Sunshine</option>
+    <option class="Saffron" value="84">Saffron</option>
+    <option class="Sunset" value="172">Sunset</option>
+    <option class="Peach" value="105">Peach</option>
+    <option class="Cantaloupe" value="171">Cantaloupe</option>
+    <option class="Orange" value="47">Orange</option>
+    <option class="Bronze" value="83">Bronze</option>
+    <option class="Terracotta" value="108">Terracotta</option>
+    <option class="Carrot" value="133">Carrot</option>
+    <option class="Fire" value="48">Fire</option>
+    <option class="Pumpkin" value="158">Pumpkin</option>
+    <option class="Tangerine" value="49">Tangerine</option>
+    <option class="Cinnamon" value="77">Cinnamon</option>
+    <option class="Caramel" value="156">Caramel</option>
+    <option class="Sand" value="50">Sand</option>
+    <option class="Tan" value="76">Tan</option>
+    <option class="Beige" value="51">Beige</option>
+    <option class="Stone" value="52">Stone</option>
+    <option class="Taupe" value="95">Taupe</option>
+    <option class="Slate" value="53">Slate</option>
+    <option class="Driftwood" value="165">Driftwood</option>
+    <option class="Latte" value="143">Latte</option>
+    <option class="Dirt" value="162">Dirt</option>
+    <option class="Clay" value="106">Clay</option>
+    <option class="Sable" value="138">Sable</option>
+    <option class="Umber" value="157">Umber</option>
+    <option class="Soil" value="54">Soil</option>
+    <option class="Hickory" value="88">Hickory</option>
+    <option class="Tarnish" value="124">Tarnish</option>
+    <option class="Ginger" value="122">Ginger</option>
+    <option class="Brown" value="55">Brown</option>
+    <option class="Chocolate" value="56">Chocolate</option>
+    <option class="Auburn" value="166">Auburn</option>
+    <option class="Copper" value="94">Copper</option>
+    <option class="Rust" value="57">Rust</option>
+    <option class="Tomato" value="58">Tomato</option>
+    <option class="Vermilion" value="169">Vermilion</option>
+    <option class="Ruby" value="86">Ruby</option>
+    <option class="Cherry" value="116">Cherry</option>
+    <option class="Crimson" value="59">Crimson</option>
+    <option class="Garnet" value="161">Garnet</option>
+    <option class="Sanguine" value="121">Sanguine</option>
+    <option class="Blood" value="60">Blood</option>
+    <option class="Maroon" value="61">Maroon</option>
+    <option class="Berry" value="87">Berry</option>
+    <option class="Red" value="62">Red</option>
+    <option class="Strawberry" value="168">Strawberry</option>
+    <option class="Cerise" value="132">Cerise</option>
+    <option class="Carmine" value="63">Carmine</option>
+    <option class="Brick" value="107">Brick</option>
+    <option class="Coral" value="64">Coral</option>
+    <option class="Blush" value="159">Blush</option>
+    <option class="Cottoncandy" value="164">Cottoncandy</option>
+    <option class="Watermelon" value="120">Watermelon</option>
+    <option class="Magenta" value="65">Magenta</option>
+    <option class="Fuchsia" value="170">Fuchsia</option>
+    <option class="Raspberry" value="160">Raspberry</option>
+    <option class="Wine" value="72">Wine</option>
+    <option class="Mauve" value="73">Mauve</option>
+    <option class="Pink" value="66">Pink</option>
+    <option class="Bubblegum" value="109">Bubblegum</option>
+    <option class="Rose" value="67">Rose</option>
+    <option class="Pearl" value="85">Pearl</option>
+   </select>
+  </div>
+
+  
+  <!-- Selecting secondary gene+colour -->
+  <div align= "center"> 
+   <label for="secondary">Secondary Gene</label>
+   <select name="secondary1"id="secondary1">
+    <option value="411">Affection</option>
+    <option value="17">Alloy</option>
+    <option value="0">Basic</option>
+    <option value="20">Bee</option>
+    <option value="213">Blaze</option>
+    <option value="42">Blend</option>
+    <option value="58">Breakup</option>
+    <option value="13">Butterfly</option>
+    <option value="412">Chess</option>
+    <option value="337">Choir</option>
+    <option value="40">Clouded</option>
+    <option value="25">Constellation</option>
+    <option value="6">Current</option>
+    <option value="7">Daub</option>
+    <option value="26">Edged</option>
+    <option value="84">Eel</option>
+    <option value="3">Eye Spots</option>
+    <option value="8">Facet</option>
+    <option value="88">Fissure</option>
+    <option value="82">Flair</option>
+    <option value="113">Foam</option>
+    <option value="4">Freckle</option>
+    <option value="517">Hawkmoth</option>
+    <option value="14">Hex</option>
+    <option value="9">Hypnotic</option>
+    <option value="170">Jester</option>
+    <option value="450">Lacquer</option>
+    <option value="400">Loam</option>
+    <option value="318">Lode</option>
+    <option value="237">Malachite</option>
+    <option value="57">Marbled</option>
+    <option value="492">Marlin</option>
+    <option value="23">Morph</option>
+    <option value="110">Myrid</option>
+    <option value="24">Noxtide</option>
+    <option value="10">Paint</option>
+    <option value="136">Paisley</option>
+    <option value="59">Patchwork</option>
+    <option value="11">Peregrine</option>
+    <option value="19">Rosette</option>
+    <option value="232">Saddle</option>
+    <option value="18">Safari</option>
+    <option value="87">Sarcophagus</option>
+    <option value="15">Saturn</option>
+    <option value="5">Seraph</option>
+    <option value="1">Shimmer</option>
+    <option value="41">Sludge</option>
+    <option value="16">Spinner</option>
+    <option value="21">Striation</option>
+    <option value="2">Stripes</option>
+    <option value="505">Tear</option>
+    <option value="12">Toxin</option>
+    <option value="22">Trail</option>
+    <option value="283">Weaver</option>
+   </select>
+
+   <label for="colour">Secondary Colour</label>
+   <select name="secondarycol1"id="secondarycol1">
+    <option class="Maize" value="1">Maize</option>
+    <option class="Cream" value="163">Cream</option>
+    <option class="Antique" value="97">Antique</option>
+    <option class="White" value="2">White</option>
+    <option class="Moon" value="74">Moon</option>
+    <option class="Ice" value="3">Ice</option>
+    <option class="Orca" value="131">Orca</option>
+    <option class="Platinum" value="4">Platinum</option>
+    <option class="Silver" value="5">Silver</option>
+    <option class="Dust" value="146">Dust</option>
+    <option class="Grey" value="6">Grey</option>
+    <option class="Smoke" value="91">Smoke</option>
+    <option class="Gloom" value="98">Gloom</option>
+    <option class="Lead" value="118">Lead</option>
+    <option class="Shale" value="177">Shale</option>
+    <option class="Flint" value="129">Flint</option>
+    <option class="Charcoal" value="7">Charcoal</option>
+    <option class="Coal" value="8">Coal</option>
+    <option class="Oilslick" value="70">Oilslick</option>
+    <option class="Black" value="9">Black</option>
+    <option class="Obsidian" value="10">Obsidian</option>
+    <option class="Eldritch" value="176">Eldritch</option>
+    <option class="Midnight" value="11">Midnight</option>
+    <option class="Shadow" value="12">Shadow</option>
+    <option class="Blackberry" value="127">Blackberry</option>
+    <option class="Mulberry" value="13">Mulberry</option>
+    <option class="Plum" selected="selected" value="92">Plum</option>
+    <option class="Wisteria" value="119">Wisteria</option>
+    <option class="Thistle" value="14">Thistle</option>
+    <option class="Fog" value="137">Fog</option>
+    <option class="Mist" value="150">Mist</option>
+    <option class="Lavender" value="15">Lavender</option>
+    <option class="Heather" value="68">Heather</option>
+    <option class="Purple" value="16">Purple</option>
+    <option class="Orchid" value="69">Orchid</option>
+    <option class="Amethyst" value="114">Amethyst</option>
+    <option class="Nightshade" value="175">Nightshade</option>
+    <option class="Violet" value="17">Violet</option>
+    <option class="Grape" value="147">Grape</option>
+    <option class="Royal" value="18">Royal</option>
+    <option class="Eggplant" value="111">Eggplant</option>
+    <option class="Iris" value="82">Iris</option>
+    <option class="Storm" value="19">Storm</option>
+    <option class="Twilight" value="174">Twilight</option>
+    <option class="Indigo" value="112">Indigo</option>
+    <option class="Sapphire" value="71">Sapphire</option>
+    <option class="Navy" value="20">Navy</option>
+    <option class="Cobalt" value="136">Cobalt</option>
+    <option class="Ultramarine" value="90">Ultramarine</option>
+    <option class="Blue" value="21">Blue</option>
+    <option class="Periwinkle" value="135">Periwinkle</option>
+    <option class="Lapis" value="148">Lapis</option>
+    <option class="Splash" value="22">Splash</option>
+    <option class="Cornflower" value="145">Cornflower</option>
+    <option class="Sky" value="23">Sky</option>
+    <option class="Stonewash" value="24">Stonewash</option>
+    <option class="Overcast" value="126">Overcast</option>
+    <option class="Steel" value="25">Steel</option>
+    <option class="Denim" value="26">Denim</option>
+    <option class="Abyss" value="96">Abyss</option>
+    <option class="Phthalo" value="151">Phthalo</option>
+    <option class="Azure" value="27">Azure</option>
+    <option class="Caribbean" value="28">Caribbean</option>
+    <option class="Teal" value="29">Teal</option>
+    <option class="Cerulean" value="117">Cerulean</option>
+    <option class="Cyan" value="89">Cyan</option>
+    <option class="Robin" value="99">Robin</option>
+    <option class="Aqua" value="30">Aqua</option>
+    <option class="Turquoise" value="149">Turquoise</option>
+    <option class="Spruce" value="100">Spruce</option>
+    <option class="Pistachio" value="125">Pistachio</option>
+    <option class="Seafoam" value="31">Seafoam</option>
+    <option class="Mint" value="152">Mint</option>
+    <option class="Jade" value="32">Jade</option>
+    <option class="Spearmint" value="78">Spearmint</option>
+    <option class="Thicket" value="141">Thicket</option>
+    <option class="Peacock" value="134">Peacock</option>
+    <option class="Emerald" value="33">Emerald</option>
+    <option class="Shamrock" value="80">Shamrock</option>
+    <option class="Jungle" value="34">Jungle</option>
+    <option class="Hunter" value="81">Hunter</option>
+    <option class="Forest" value="35">Forest</option>
+    <option class="Camo" value="154">Camo</option>
+    <option class="Algae" value="153">Algae</option>
+    <option class="Swamp" value="36">Swamp</option>
+    <option class="Avocado" value="37">Avocado</option>
+    <option class="Green" value="38">Green</option>
+    <option class="Fern" value="113">Fern</option>
+    <option class="Mantis" value="79">Mantis</option>
+    <option class="Pear" value="101">Pear</option>
+    <option class="Leaf" value="39">Leaf</option>
+    <option class="Radioactive" value="130">Radioactive</option>
+    <option class="Honeydew" value="102">Honeydew</option>
+    <option class="Peridot" value="144">Peridot</option>
+    <option class="Chartreuse" value="155">Chartreuse</option>
+    <option class="Spring" value="40">Spring</option>
+    <option class="Crocodile" value="173">Crocodile</option>
+    <option class="Olive" value="123">Olive</option>
+    <option class="Murk" value="142">Murk</option>
+    <option class="Moss" value="115">Moss</option>
+    <option class="Goldenrod" value="41">Goldenrod</option>
+    <option class="Amber" value="103">Amber</option>
+    <option class="Honey" value="93">Honey</option>
+    <option class="Lemon" value="42">Lemon</option>
+    <option class="Yellow" value="104">Yellow</option>
+    <option class="Grapefruit" value="128">Grapefruit</option>
+    <option class="Banana" value="43">Banana</option>
+    <option class="Sanddollar" value="110">Sanddollar</option>
+    <option class="Flaxen" value="139">Flaxen</option>
+    <option class="Ivory" value="44">Ivory</option>
+    <option class="Buttercup" value="167">Buttercup</option>
+    <option class="Gold" value="45">Gold</option>
+    <option class="Metals" value="140">Metals</option>
+    <option class="Marigold" value="75">Marigold</option>
+    <option class="Sunshine" value="46">Sunshine</option>
+    <option class="Saffron" value="84">Saffron</option>
+    <option class="Sunset" value="172">Sunset</option>
+    <option class="Peach" value="105">Peach</option>
+    <option class="Cantaloupe" value="171">Cantaloupe</option>
+    <option class="Orange" value="47">Orange</option>
+    <option class="Bronze" value="83">Bronze</option>
+    <option class="Terracotta" value="108">Terracotta</option>
+    <option class="Carrot" value="133">Carrot</option>
+    <option class="Fire" value="48">Fire</option>
+    <option class="Pumpkin" value="158">Pumpkin</option>
+    <option class="Tangerine" value="49">Tangerine</option>
+    <option class="Cinnamon" value="77">Cinnamon</option>
+    <option class="Caramel" value="156">Caramel</option>
+    <option class="Sand" value="50">Sand</option>
+    <option class="Tan" value="76">Tan</option>
+    <option class="Beige" value="51">Beige</option>
+    <option class="Stone" value="52">Stone</option>
+    <option class="Taupe" value="95">Taupe</option>
+    <option class="Slate" value="53">Slate</option>
+    <option class="Driftwood" value="165">Driftwood</option>
+    <option class="Latte" value="143">Latte</option>
+    <option class="Dirt" value="162">Dirt</option>
+    <option class="Clay" value="106">Clay</option>
+    <option class="Sable" value="138">Sable</option>
+    <option class="Umber" value="157">Umber</option>
+    <option class="Soil" value="54">Soil</option>
+    <option class="Hickory" value="88">Hickory</option>
+    <option class="Tarnish" value="124">Tarnish</option>
+    <option class="Ginger" value="122">Ginger</option>
+    <option class="Brown" value="55">Brown</option>
+    <option class="Chocolate" value="56">Chocolate</option>
+    <option class="Auburn" value="166">Auburn</option>
+    <option class="Copper" value="94">Copper</option>
+    <option class="Rust" value="57">Rust</option>
+    <option class="Tomato" value="58">Tomato</option>
+    <option class="Vermilion" value="169">Vermilion</option>
+    <option class="Ruby" value="86">Ruby</option>
+    <option class="Cherry" value="116">Cherry</option>
+    <option class="Crimson" value="59">Crimson</option>
+    <option class="Garnet" value="161">Garnet</option>
+    <option class="Sanguine" value="121">Sanguine</option>
+    <option class="Blood" value="60">Blood</option>
+    <option class="Maroon" value="61">Maroon</option>
+    <option class="Berry" value="87">Berry</option>
+    <option class="Red" value="62">Red</option>
+    <option class="Strawberry" value="168">Strawberry</option>
+    <option class="Cerise" value="132">Cerise</option>
+    <option class="Carmine" value="63">Carmine</option>
+    <option class="Brick" value="107">Brick</option>
+    <option class="Coral" value="64">Coral</option>
+    <option class="Blush" value="159">Blush</option>
+    <option class="Cottoncandy" value="164">Cottoncandy</option>
+    <option class="Watermelon" value="120">Watermelon</option>
+    <option class="Magenta" value="65">Magenta</option>
+    <option class="Fuchsia" value="170">Fuchsia</option>
+    <option class="Raspberry" value="160">Raspberry</option>
+    <option class="Wine" value="72">Wine</option>
+    <option class="Mauve" value="73">Mauve</option>
+    <option class="Pink" value="66">Pink</option>
+    <option class="Bubblegum" value="109">Bubblegum</option>
+    <option class="Rose" value="67">Rose</option>
+    <option class="Pearl" value="85">Pearl</option>
+   </select>
+  </div>
+
+  <!-- Selecting tertiary gene+colour -->
+  <div align= "center"> 
+   <label for="tertiary">Tertiary Gene</label>
+   <select name="tertiary1"id="tertiary1">
+   <option value= "0">Basic</option>
+   <option value= "18">Capsule</option>
+   <option value="1">Circuit</option>
+   <option value="13">Contour</option>
+   <option value="6">Crackle</option>
+   <option value="484">Darts</option>
+   <option value="421">Eclipse</option>
+   <option value="21">Filigree</option>
+   <option value="161">Firebreather</option>
+   <option value="22">Firefly</option>
+   <option value="103">Flecks</option>
+   <option value="411">Gecko</option>
+   <option value="4">Gembond</option>
+   <option value="20">Ghost</option>
+   <option value="10">Glimmer</option>
+   <option value="54">Glowtail</option>
+   <option value="53">Keel</option>
+   <option value="73">Koi</option>
+   <option value="16">Lace</option>
+   <option value="584">Magpie</option>
+   <option value="9">Okapi</option>
+   <option value="17">Opal</option>
+   <option value="24">Peacock</option>
+   <option value="107">Points</option>
+   <option value="168">Polkadot</option>
+   <option value="23">Ringlets</option>
+   <option value="14">Runes</option>
+   <option value="15">Scales</option>
+   <option value="19">Smirch</option>
+   <option value="7">Smoke</option>
+   <option value="105">Soap</option>
+   <option value="97">Sparkle</option>
+   <option value="8">Spines</option>
+   <option value="12">Stained</option>
+   <option value="11">Thylacine</option>
+   <option value="5">Underbelly</option>
+   <option value="38">Veined</option>
+   <option value="213">Wish</option>
+   </select>
+
+   <label for="colour">Tertiary Colour</label>
+   <select name="tertiarycol1"id="tertiarycol1">
+    <option class="Maize" value="1">Maize</option>
+    <option class="Cream" value="163">Cream</option>
+    <option class="Antique" value="97">Antique</option>
+    <option class="White" value="2">White</option>
+    <option class="Moon" value="74">Moon</option>
+    <option class="Ice" value="3">Ice</option>
+    <option class="Orca" value="131">Orca</option>
+    <option class="Platinum" value="4">Platinum</option>
+    <option class="Silver" value="5">Silver</option>
+    <option class="Dust" value="146">Dust</option>
+    <option class="Grey" value="6">Grey</option>
+    <option class="Smoke" value="91">Smoke</option>
+    <option class="Gloom" value="98">Gloom</option>
+    <option class="Lead" value="118">Lead</option>
+    <option class="Shale" value="177">Shale</option>
+    <option class="Flint" value="129">Flint</option>
+    <option class="Charcoal" value="7">Charcoal</option>
+    <option class="Coal" value="8">Coal</option>
+    <option class="Oilslick" value="70">Oilslick</option>
+    <option class="Black" value="9">Black</option>
+    <option class="Obsidian" value="10">Obsidian</option>
+    <option class="Eldritch" value="176">Eldritch</option>
+    <option class="Midnight" value="11">Midnight</option>
+    <option class="Shadow" value="12">Shadow</option>
+    <option class="Blackberry" value="127">Blackberry</option>
+    <option class="Mulberry" value="13">Mulberry</option>
+    <option class="Plum" selected="selected" value="92">Plum</option>
+    <option class="Wisteria" value="119">Wisteria</option>
+    <option class="Thistle" value="14">Thistle</option>
+    <option class="Fog" value="137">Fog</option>
+    <option class="Mist" value="150">Mist</option>
+    <option class="Lavender" value="15">Lavender</option>
+    <option class="Heather" value="68">Heather</option>
+    <option class="Purple" value="16">Purple</option>
+    <option class="Orchid" value="69">Orchid</option>
+    <option class="Amethyst" value="114">Amethyst</option>
+    <option class="Nightshade" value="175">Nightshade</option>
+    <option class="Violet" value="17">Violet</option>
+    <option class="Grape" value="147">Grape</option>
+    <option class="Royal" value="18">Royal</option>
+    <option class="Eggplant" value="111">Eggplant</option>
+    <option class="Iris" value="82">Iris</option>
+    <option class="Storm" value="19">Storm</option>
+    <option class="Twilight" value="174">Twilight</option>
+    <option class="Indigo" value="112">Indigo</option>
+    <option class="Sapphire" value="71">Sapphire</option>
+    <option class="Navy" value="20">Navy</option>
+    <option class="Cobalt" value="136">Cobalt</option>
+    <option class="Ultramarine" value="90">Ultramarine</option>
+    <option class="Blue" value="21">Blue</option>
+    <option class="Periwinkle" value="135">Periwinkle</option>
+    <option class="Lapis" value="148">Lapis</option>
+    <option class="Splash" value="22">Splash</option>
+    <option class="Cornflower" value="145">Cornflower</option>
+    <option class="Sky" value="23">Sky</option>
+    <option class="Stonewash" value="24">Stonewash</option>
+    <option class="Overcast" value="126">Overcast</option>
+    <option class="Steel" value="25">Steel</option>
+    <option class="Denim" value="26">Denim</option>
+    <option class="Abyss" value="96">Abyss</option>
+    <option class="Phthalo" value="151">Phthalo</option>
+    <option class="Azure" value="27">Azure</option>
+    <option class="Caribbean" value="28">Caribbean</option>
+    <option class="Teal" value="29">Teal</option>
+    <option class="Cerulean" value="117">Cerulean</option>
+    <option class="Cyan" value="89">Cyan</option>
+    <option class="Robin" value="99">Robin</option>
+    <option class="Aqua" value="30">Aqua</option>
+    <option class="Turquoise" value="149">Turquoise</option>
+    <option class="Spruce" value="100">Spruce</option>
+    <option class="Pistachio" value="125">Pistachio</option>
+    <option class="Seafoam" value="31">Seafoam</option>
+    <option class="Mint" value="152">Mint</option>
+    <option class="Jade" value="32">Jade</option>
+    <option class="Spearmint" value="78">Spearmint</option>
+    <option class="Thicket" value="141">Thicket</option>
+    <option class="Peacock" value="134">Peacock</option>
+    <option class="Emerald" value="33">Emerald</option>
+    <option class="Shamrock" value="80">Shamrock</option>
+    <option class="Jungle" value="34">Jungle</option>
+    <option class="Hunter" value="81">Hunter</option>
+    <option class="Forest" value="35">Forest</option>
+    <option class="Camo" value="154">Camo</option>
+    <option class="Algae" value="153">Algae</option>
+    <option class="Swamp" value="36">Swamp</option>
+    <option class="Avocado" value="37">Avocado</option>
+    <option class="Green" value="38">Green</option>
+    <option class="Fern" value="113">Fern</option>
+    <option class="Mantis" value="79">Mantis</option>
+    <option class="Pear" value="101">Pear</option>
+    <option class="Leaf" value="39">Leaf</option>
+    <option class="Radioactive" value="130">Radioactive</option>
+    <option class="Honeydew" value="102">Honeydew</option>
+    <option class="Peridot" value="144">Peridot</option>
+    <option class="Chartreuse" value="155">Chartreuse</option>
+    <option class="Spring" value="40">Spring</option>
+    <option class="Crocodile" value="173">Crocodile</option>
+    <option class="Olive" value="123">Olive</option>
+    <option class="Murk" value="142">Murk</option>
+    <option class="Moss" value="115">Moss</option>
+    <option class="Goldenrod" value="41">Goldenrod</option>
+    <option class="Amber" value="103">Amber</option>
+    <option class="Honey" value="93">Honey</option>
+    <option class="Lemon" value="42">Lemon</option>
+    <option class="Yellow" value="104">Yellow</option>
+    <option class="Grapefruit" value="128">Grapefruit</option>
+    <option class="Banana" value="43">Banana</option>
+    <option class="Sanddollar" value="110">Sanddollar</option>
+    <option class="Flaxen" value="139">Flaxen</option>
+    <option class="Ivory" value="44">Ivory</option>
+    <option class="Buttercup" value="167">Buttercup</option>
+    <option class="Gold" value="45">Gold</option>
+    <option class="Metals" value="140">Metals</option>
+    <option class="Marigold" value="75">Marigold</option>
+    <option class="Sunshine" value="46">Sunshine</option>
+    <option class="Saffron" value="84">Saffron</option>
+    <option class="Sunset" value="172">Sunset</option>
+    <option class="Peach" value="105">Peach</option>
+    <option class="Cantaloupe" value="171">Cantaloupe</option>
+    <option class="Orange" value="47">Orange</option>
+    <option class="Bronze" value="83">Bronze</option>
+    <option class="Terracotta" value="108">Terracotta</option>
+    <option class="Carrot" value="133">Carrot</option>
+    <option class="Fire" value="48">Fire</option>
+    <option class="Pumpkin" value="158">Pumpkin</option>
+    <option class="Tangerine" value="49">Tangerine</option>
+    <option class="Cinnamon" value="77">Cinnamon</option>
+    <option class="Caramel" value="156">Caramel</option>
+    <option class="Sand" value="50">Sand</option>
+    <option class="Tan" value="76">Tan</option>
+    <option class="Beige" value="51">Beige</option>
+    <option class="Stone" value="52">Stone</option>
+    <option class="Taupe" value="95">Taupe</option>
+    <option class="Slate" value="53">Slate</option>
+    <option class="Driftwood" value="165">Driftwood</option>
+    <option class="Latte" value="143">Latte</option>
+    <option class="Dirt" value="162">Dirt</option>
+    <option class="Clay" value="106">Clay</option>
+    <option class="Sable" value="138">Sable</option>
+    <option class="Umber" value="157">Umber</option>
+    <option class="Soil" value="54">Soil</option>
+    <option class="Hickory" value="88">Hickory</option>
+    <option class="Tarnish" value="124">Tarnish</option>
+    <option class="Ginger" value="122">Ginger</option>
+    <option class="Brown" value="55">Brown</option>
+    <option class="Chocolate" value="56">Chocolate</option>
+    <option class="Auburn" value="166">Auburn</option>
+    <option class="Copper" value="94">Copper</option>
+    <option class="Rust" value="57">Rust</option>
+    <option class="Tomato" value="58">Tomato</option>
+    <option class="Vermilion" value="169">Vermilion</option>
+    <option class="Ruby" value="86">Ruby</option>
+    <option class="Cherry" value="116">Cherry</option>
+    <option class="Crimson" value="59">Crimson</option>
+    <option class="Garnet" value="161">Garnet</option>
+    <option class="Sanguine" value="121">Sanguine</option>
+    <option class="Blood" value="60">Blood</option>
+    <option class="Maroon" value="61">Maroon</option>
+    <option class="Berry" value="87">Berry</option>
+    <option class="Red" value="62">Red</option>
+    <option class="Strawberry" value="168">Strawberry</option>
+    <option class="Cerise" value="132">Cerise</option>
+    <option class="Carmine" value="63">Carmine</option>
+    <option class="Brick" value="107">Brick</option>
+    <option class="Coral" value="64">Coral</option>
+    <option class="Blush" value="159">Blush</option>
+    <option class="Cottoncandy" value="164">Cottoncandy</option>
+    <option class="Watermelon" value="120">Watermelon</option>
+    <option class="Magenta" value="65">Magenta</option>
+    <option class="Fuchsia" value="170">Fuchsia</option>
+    <option class="Raspberry" value="160">Raspberry</option>
+    <option class="Wine" value="72">Wine</option>
+    <option class="Mauve" value="73">Mauve</option>
+    <option class="Pink" value="66">Pink</option>
+    <option class="Bubblegum" value="109">Bubblegum</option>
+    <option class="Rose" value="67">Rose</option>
+    <option class="Pearl" value="85">Pearl</option>
+   </select>
+  </div>
+  
+   <p id="test"></p>
+  
+ <!-- Parent 2 Fields -->
+  <!-- Selecting primary gene+colour -->
+   <div align= "center"> 
+   <label for="primary2">Primary Gene</label>
+   <select name="primary2"id="primary2">
+    <option value="6">Bar</option>
+    <option value="0">Basic</option>
+    <option value="232">Boa</option>
+    <option value="110">Boulder</option>
+    <option value="412">Checkers</option>
+    <option value="10">Cherub</option>
+    <option value="337">Chorus</option>
+    <option value="237">Chrysocolla</option>
+    <option value="213">Cinder</option>
+    <option value="3">Clown</option>
+    <option value="7">Crystal</option>
+    <option value="42">Fade</option>
+    <option value="16">Falcon</option>
+    <option value="136">Fern</option>
+    <option value="82">Flaunt</option>
+    <option value="12">Giraffe</option>
+    <option value="88">Ground</option>
+    <option value="170">Harlequin</option>
+    <option value="1">Iridescent</option>
+    <option value="19">Jaguar</option>
+    <option value="14">Jupiter</option>
+    <option value="26">Laced</option>
+    <option value="40">Leopard</option>
+    <option value="25">Lionfish</option>
+    <option value="411">Love</option>
+    <option value="17">Metallic</option>
+    <option value="58">Mosaic</option>
+    <option value="283">Orb</option>
+    <option value="13">Petals</option>
+    <option value="318">Petrified</option>
+    <option value="87">Pharaoh</option>
+    <option value="9">Piebald</option>
+    <option value="22">Pinstripe</option>
+    <option value="11">Poison</option>
+    <option value="23">Python</option>
+    <option value="84">Ribbon</option>
+    <option value="5">Ripple</option>
+    <option value="492">Sailfish</option>
+    <option value="18">Savanna</option>
+    <option value="15">Skink</option>
+    <option value="41">Slime</option>
+    <option value="400">Soil</option>
+    <option value="4">Speckle</option>
+    <option value="24">Starmap</option>
+    <option value="59">Stitched</option>
+    <option value="57">Swirl</option>
+    <option value="21">Tapir</option>
+    <option value="114">Tide</option>
+    <option value="2">Tiger</option>
+    <option value="450">Varnish</option>
+    <option value="8">Vipera</option>
+    <option value="20">Wasp</option>
+   </select>
+
+   <label for="colour">Primary Colour</label>
+   <select name="primarycol2"id="primarycol2">
+    <option class="Maize" value="1">Maize</option>
+    <option class="Cream" value="163">Cream</option>
+    <option class="Antique" value="97">Antique</option>
+    <option class="White" value="2">White</option>
+    <option class="Moon" value="74">Moon</option>
+    <option class="Ice" value="3">Ice</option>
+    <option class="Orca" value="131">Orca</option>
+    <option class="Platinum" value="4">Platinum</option>
+    <option class="Silver" value="5">Silver</option>
+    <option class="Dust" value="146">Dust</option>
+    <option class="Grey" value="6">Grey</option>
+    <option class="Smoke" value="91">Smoke</option>
+    <option class="Gloom" value="98">Gloom</option>
+    <option class="Lead" value="118">Lead</option>
+    <option class="Shale" value="177">Shale</option>
+    <option class="Flint" value="129">Flint</option>
+    <option class="Charcoal" value="7">Charcoal</option>
+    <option class="Coal" value="8">Coal</option>
+    <option class="Oilslick" value="70">Oilslick</option>
+    <option class="Black" value="9">Black</option>
+    <option class="Obsidian" value="10">Obsidian</option>
+    <option class="Eldritch" value="176">Eldritch</option>
+    <option class="Midnight" value="11">Midnight</option>
+    <option class="Shadow" value="12">Shadow</option>
+    <option class="Blackberry" value="127">Blackberry</option>
+    <option class="Mulberry" value="13">Mulberry</option>
+    <option class="Plum" selected="selected" value="92">Plum</option>
+    <option class="Wisteria" value="119">Wisteria</option>
+    <option class="Thistle" value="14">Thistle</option>
+    <option class="Fog" value="137">Fog</option>
+    <option class="Mist" value="150">Mist</option>
+    <option class="Lavender" value="15">Lavender</option>
+    <option class="Heather" value="68">Heather</option>
+    <option class="Purple" value="16">Purple</option>
+    <option class="Orchid" value="69">Orchid</option>
+    <option class="Amethyst" value="114">Amethyst</option>
+    <option class="Nightshade" value="175">Nightshade</option>
+    <option class="Violet" value="17">Violet</option>
+    <option class="Grape" value="147">Grape</option>
+    <option class="Royal" value="18">Royal</option>
+    <option class="Eggplant" value="111">Eggplant</option>
+    <option class="Iris" value="82">Iris</option>
+    <option class="Storm" value="19">Storm</option>
+    <option class="Twilight" value="174">Twilight</option>
+    <option class="Indigo" value="112">Indigo</option>
+    <option class="Sapphire" value="71">Sapphire</option>
+    <option class="Navy" value="20">Navy</option>
+    <option class="Cobalt" value="136">Cobalt</option>
+    <option class="Ultramarine" value="90">Ultramarine</option>
+    <option class="Blue" value="21">Blue</option>
+    <option class="Periwinkle" value="135">Periwinkle</option>
+    <option class="Lapis" value="148">Lapis</option>
+    <option class="Splash" value="22">Splash</option>
+    <option class="Cornflower" value="145">Cornflower</option>
+    <option class="Sky" value="23">Sky</option>
+    <option class="Stonewash" value="24">Stonewash</option>
+    <option class="Overcast" value="126">Overcast</option>
+    <option class="Steel" value="25">Steel</option>
+    <option class="Denim" value="26">Denim</option>
+    <option class="Abyss" value="96">Abyss</option>
+    <option class="Phthalo" value="151">Phthalo</option>
+    <option class="Azure" value="27">Azure</option>
+    <option class="Caribbean" value="28">Caribbean</option>
+    <option class="Teal" value="29">Teal</option>
+    <option class="Cerulean" value="117">Cerulean</option>
+    <option class="Cyan" value="89">Cyan</option>
+    <option class="Robin" value="99">Robin</option>
+    <option class="Aqua" value="30">Aqua</option>
+    <option class="Turquoise" value="149">Turquoise</option>
+    <option class="Spruce" value="100">Spruce</option>
+    <option class="Pistachio" value="125">Pistachio</option>
+    <option class="Seafoam" value="31">Seafoam</option>
+    <option class="Mint" value="152">Mint</option>
+    <option class="Jade" value="32">Jade</option>
+    <option class="Spearmint" value="78">Spearmint</option>
+    <option class="Thicket" value="141">Thicket</option>
+    <option class="Peacock" value="134">Peacock</option>
+    <option class="Emerald" value="33">Emerald</option>
+    <option class="Shamrock" value="80">Shamrock</option>
+    <option class="Jungle" value="34">Jungle</option>
+    <option class="Hunter" value="81">Hunter</option>
+    <option class="Forest" value="35">Forest</option>
+    <option class="Camo" value="154">Camo</option>
+    <option class="Algae" value="153">Algae</option>
+    <option class="Swamp" value="36">Swamp</option>
+    <option class="Avocado" value="37">Avocado</option>
+    <option class="Green" value="38">Green</option>
+    <option class="Fern" value="113">Fern</option>
+    <option class="Mantis" value="79">Mantis</option>
+    <option class="Pear" value="101">Pear</option>
+    <option class="Leaf" value="39">Leaf</option>
+    <option class="Radioactive" value="130">Radioactive</option>
+    <option class="Honeydew" value="102">Honeydew</option>
+    <option class="Peridot" value="144">Peridot</option>
+    <option class="Chartreuse" value="155">Chartreuse</option>
+    <option class="Spring" value="40">Spring</option>
+    <option class="Crocodile" value="173">Crocodile</option>
+    <option class="Olive" value="123">Olive</option>
+    <option class="Murk" value="142">Murk</option>
+    <option class="Moss" value="115">Moss</option>
+    <option class="Goldenrod" value="41">Goldenrod</option>
+    <option class="Amber" value="103">Amber</option>
+    <option class="Honey" value="93">Honey</option>
+    <option class="Lemon" value="42">Lemon</option>
+    <option class="Yellow" value="104">Yellow</option>
+    <option class="Grapefruit" value="128">Grapefruit</option>
+    <option class="Banana" value="43">Banana</option>
+    <option class="Sanddollar" value="110">Sanddollar</option>
+    <option class="Flaxen" value="139">Flaxen</option>
+    <option class="Ivory" value="44">Ivory</option>
+    <option class="Buttercup" value="167">Buttercup</option>
+    <option class="Gold" value="45">Gold</option>
+    <option class="Metals" value="140">Metals</option>
+    <option class="Marigold" value="75">Marigold</option>
+    <option class="Sunshine" value="46">Sunshine</option>
+    <option class="Saffron" value="84">Saffron</option>
+    <option class="Sunset" value="172">Sunset</option>
+    <option class="Peach" value="105">Peach</option>
+    <option class="Cantaloupe" value="171">Cantaloupe</option>
+    <option class="Orange" value="47">Orange</option>
+    <option class="Bronze" value="83">Bronze</option>
+    <option class="Terracotta" value="108">Terracotta</option>
+    <option class="Carrot" value="133">Carrot</option>
+    <option class="Fire" value="48">Fire</option>
+    <option class="Pumpkin" value="158">Pumpkin</option>
+    <option class="Tangerine" value="49">Tangerine</option>
+    <option class="Cinnamon" value="77">Cinnamon</option>
+    <option class="Caramel" value="156">Caramel</option>
+    <option class="Sand" value="50">Sand</option>
+    <option class="Tan" value="76">Tan</option>
+    <option class="Beige" value="51">Beige</option>
+    <option class="Stone" value="52">Stone</option>
+    <option class="Taupe" value="95">Taupe</option>
+    <option class="Slate" value="53">Slate</option>
+    <option class="Driftwood" value="165">Driftwood</option>
+    <option class="Latte" value="143">Latte</option>
+    <option class="Dirt" value="162">Dirt</option>
+    <option class="Clay" value="106">Clay</option>
+    <option class="Sable" value="138">Sable</option>
+    <option class="Umber" value="157">Umber</option>
+    <option class="Soil" value="54">Soil</option>
+    <option class="Hickory" value="88">Hickory</option>
+    <option class="Tarnish" value="124">Tarnish</option>
+    <option class="Ginger" value="122">Ginger</option>
+    <option class="Brown" value="55">Brown</option>
+    <option class="Chocolate" value="56">Chocolate</option>
+    <option class="Auburn" value="166">Auburn</option>
+    <option class="Copper" value="94">Copper</option>
+    <option class="Rust" value="57">Rust</option>
+    <option class="Tomato" value="58">Tomato</option>
+    <option class="Vermilion" value="169">Vermilion</option>
+    <option class="Ruby" value="86">Ruby</option>
+    <option class="Cherry" value="116">Cherry</option>
+    <option class="Crimson" value="59">Crimson</option>
+    <option class="Garnet" value="161">Garnet</option>
+    <option class="Sanguine" value="121">Sanguine</option>
+    <option class="Blood" value="60">Blood</option>
+    <option class="Maroon" value="61">Maroon</option>
+    <option class="Berry" value="87">Berry</option>
+    <option class="Red" value="62">Red</option>
+    <option class="Strawberry" value="168">Strawberry</option>
+    <option class="Cerise" value="132">Cerise</option>
+    <option class="Carmine" value="63">Carmine</option>
+    <option class="Brick" value="107">Brick</option>
+    <option class="Coral" value="64">Coral</option>
+    <option class="Blush" value="159">Blush</option>
+    <option class="Cottoncandy" value="164">Cottoncandy</option>
+    <option class="Watermelon" value="120">Watermelon</option>
+    <option class="Magenta" value="65">Magenta</option>
+    <option class="Fuchsia" value="170">Fuchsia</option>
+    <option class="Raspberry" value="160">Raspberry</option>
+    <option class="Wine" value="72">Wine</option>
+    <option class="Mauve" value="73">Mauve</option>
+    <option class="Pink" value="66">Pink</option>
+    <option class="Bubblegum" value="109">Bubblegum</option>
+    <option class="Rose" value="67">Rose</option>
+    <option class="Pearl" value="85">Pearl</option>
+   </select>
+  </div>
+
+  <!-- Selecting secondary gene+colour -->
+  <div align= "center"> 
+   <label for="secondary">Secondary Gene</label>
+   <select name="secondary2"id="secondary2">
+    <option value="411">Affection</option>
+    <option value="17">Alloy</option>
+    <option value="0">Basic</option>
+    <option value="20">Bee</option>
+    <option value="213">Blaze</option>
+    <option value="42">Blend</option>
+    <option value="58">Breakup</option>
+    <option value="13">Butterfly</option>
+    <option value="412">Chess</option>
+    <option value="337">Choir</option>
+    <option value="40">Clouded</option>
+    <option value="25">Constellation</option>
+    <option value="6">Current</option>
+    <option value="7">Daub</option>
+    <option value="26">Edged</option>
+    <option value="84">Eel</option>
+    <option value="3">Eye Spots</option>
+    <option value="8">Facet</option>
+    <option value="88">Fissure</option>
+    <option value="82">Flair</option>
+    <option value="113">Foam</option>
+    <option value="4">Freckle</option>
+    <option value="517">Hawkmoth</option>
+    <option value="14">Hex</option>
+    <option value="9">Hypnotic</option>
+    <option value="170">Jester</option>
+    <option value="450">Lacquer</option>
+    <option value="400">Loam</option>
+    <option value="318">Lode</option>
+    <option value="237">Malachite</option>
+    <option value="57">Marbled</option>
+    <option value="492">Marlin</option>
+    <option value="23">Morph</option>
+    <option value="110">Myrid</option>
+    <option value="24">Noxtide</option>
+    <option value="10">Paint</option>
+    <option value="136">Paisley</option>
+    <option value="59">Patchwork</option>
+    <option value="11">Peregrine</option>
+    <option value="19">Rosette</option>
+    <option value="232">Saddle</option>
+    <option value="18">Safari</option>
+    <option value="87">Sarcophagus</option>
+    <option value="15">Saturn</option>
+    <option value="5">Seraph</option>
+    <option value="1">Shimmer</option>
+    <option value="41">Sludge</option>
+    <option value="16">Spinner</option>
+    <option value="21">Striation</option>
+    <option value="2">Stripes</option>
+    <option value="505">Tear</option>
+    <option value="12">Toxin</option>
+    <option value="22">Trail</option>
+    <option value="283">Weaver</option>
+   </select>
+
+   <label for="colour">Secondary Colour</label>
+   <select name="secondarycol2"id="secondarycol2">
+    <option class="Maize" value="1">Maize</option>
+    <option class="Cream" value="163">Cream</option>
+    <option class="Antique" value="97">Antique</option>
+    <option class="White" value="2">White</option>
+    <option class="Moon" value="74">Moon</option>
+    <option class="Ice" value="3">Ice</option>
+    <option class="Orca" value="131">Orca</option>
+    <option class="Platinum" value="4">Platinum</option>
+    <option class="Silver" value="5">Silver</option>
+    <option class="Dust" value="146">Dust</option>
+    <option class="Grey" value="6">Grey</option>
+    <option class="Smoke" value="91">Smoke</option>
+    <option class="Gloom" value="98">Gloom</option>
+    <option class="Lead" value="118">Lead</option>
+    <option class="Shale" value="177">Shale</option>
+    <option class="Flint" value="129">Flint</option>
+    <option class="Charcoal" value="7">Charcoal</option>
+    <option class="Coal" value="8">Coal</option>
+    <option class="Oilslick" value="70">Oilslick</option>
+    <option class="Black" value="9">Black</option>
+    <option class="Obsidian" value="10">Obsidian</option>
+    <option class="Eldritch" value="176">Eldritch</option>
+    <option class="Midnight" value="11">Midnight</option>
+    <option class="Shadow" value="12">Shadow</option>
+    <option class="Blackberry" value="127">Blackberry</option>
+    <option class="Mulberry" value="13">Mulberry</option>
+    <option class="Plum" value="92">Plum</option>
+    <option class="Wisteria" value="119">Wisteria</option>
+    <option class="Thistle" value="14">Thistle</option>
+    <option class="Fog" value="137">Fog</option>
+    <option class="Mist" value="150">Mist</option>
+    <option class="Lavender" value="15">Lavender</option>
+    <option class="Heather" value="68">Heather</option>
+    <option class="Purple" value="16">Purple</option>
+    <option class="Orchid" value="69">Orchid</option>
+    <option class="Amethyst" value="114">Amethyst</option>
+    <option class="Nightshade" value="175">Nightshade</option>
+    <option class="Violet" value="17">Violet</option>
+    <option class="Grape" value="147">Grape</option>
+    <option class="Royal" value="18">Royal</option>
+    <option class="Eggplant" value="111">Eggplant</option>
+    <option class="Iris" value="82">Iris</option>
+    <option class="Storm" value="19">Storm</option>
+    <option class="Twilight" value="174">Twilight</option>
+    <option class="Indigo" value="112">Indigo</option>
+    <option class="Sapphire" value="71">Sapphire</option>
+    <option class="Navy" value="20">Navy</option>
+    <option class="Cobalt" value="136">Cobalt</option>
+    <option class="Ultramarine" value="90">Ultramarine</option>
+    <option class="Blue" value="21">Blue</option>
+    <option class="Periwinkle" value="135">Periwinkle</option>
+    <option class="Lapis" value="148">Lapis</option>
+    <option class="Splash" value="22">Splash</option>
+    <option class="Cornflower" value="145">Cornflower</option>
+    <option class="Sky" value="23">Sky</option>
+    <option class="Stonewash" value="24">Stonewash</option>
+    <option class="Overcast" value="126">Overcast</option>
+    <option class="Steel" value="25">Steel</option>
+    <option class="Denim" value="26">Denim</option>
+    <option class="Abyss" value="96">Abyss</option>
+    <option class="Phthalo" value="151">Phthalo</option>
+    <option class="Azure" value="27">Azure</option>
+    <option class="Caribbean" value="28">Caribbean</option>
+    <option class="Teal" value="29">Teal</option>
+    <option class="Cerulean" value="117">Cerulean</option>
+    <option class="Cyan" value="89">Cyan</option>
+    <option class="Robin" value="99">Robin</option>
+    <option class="Aqua" value="30">Aqua</option>
+    <option class="Turquoise" value="149">Turquoise</option>
+    <option class="Spruce" value="100">Spruce</option>
+    <option class="Pistachio" value="125">Pistachio</option>
+    <option class="Seafoam" value="31">Seafoam</option>
+    <option class="Mint" value="152">Mint</option>
+    <option class="Jade" value="32">Jade</option>
+    <option class="Spearmint" value="78">Spearmint</option>
+    <option class="Thicket" value="141">Thicket</option>
+    <option class="Peacock" value="134">Peacock</option>
+    <option class="Emerald" value="33">Emerald</option>
+    <option class="Shamrock" value="80">Shamrock</option>
+    <option class="Jungle" value="34">Jungle</option>
+    <option class="Hunter" value="81">Hunter</option>
+    <option class="Forest" value="35">Forest</option>
+    <option class="Camo" value="154">Camo</option>
+    <option class="Algae" value="153">Algae</option>
+    <option class="Swamp" value="36">Swamp</option>
+    <option class="Avocado" value="37">Avocado</option>
+    <option class="Green" value="38">Green</option>
+    <option class="Fern" value="113">Fern</option>
+    <option class="Mantis" value="79">Mantis</option>
+    <option class="Pear" value="101">Pear</option>
+    <option class="Leaf" value="39">Leaf</option>
+    <option class="Radioactive" value="130">Radioactive</option>
+    <option class="Honeydew" value="102">Honeydew</option>
+    <option class="Peridot" value="144">Peridot</option>
+    <option class="Chartreuse" value="155">Chartreuse</option>
+    <option class="Spring" value="40">Spring</option>
+    <option class="Crocodile" value="173">Crocodile</option>
+    <option class="Olive" value="123">Olive</option>
+    <option class="Murk" value="142">Murk</option>
+    <option class="Moss" value="115">Moss</option>
+    <option class="Goldenrod" value="41">Goldenrod</option>
+    <option class="Amber" value="103">Amber</option>
+    <option class="Honey" value="93">Honey</option>
+    <option class="Lemon" value="42">Lemon</option>
+    <option class="Yellow" value="104">Yellow</option>
+    <option class="Grapefruit" value="128">Grapefruit</option>
+    <option class="Banana" value="43">Banana</option>
+    <option class="Sanddollar" value="110">Sanddollar</option>
+    <option class="Flaxen" value="139">Flaxen</option>
+    <option class="Ivory" value="44">Ivory</option>
+    <option class="Buttercup" value="167">Buttercup</option>
+    <option class="Gold" value="45">Gold</option>
+    <option class="Metals" value="140">Metals</option>
+    <option class="Marigold" value="75">Marigold</option>
+    <option class="Sunshine" value="46">Sunshine</option>
+    <option class="Saffron" value="84">Saffron</option>
+    <option class="Sunset" value="172">Sunset</option>
+    <option class="Peach" value="105">Peach</option>
+    <option class="Cantaloupe" value="171">Cantaloupe</option>
+    <option class="Orange" value="47">Orange</option>
+    <option class="Bronze" value="83">Bronze</option>
+    <option class="Terracotta" value="108">Terracotta</option>
+    <option class="Carrot" value="133">Carrot</option>
+    <option class="Fire" value="48">Fire</option>
+    <option class="Pumpkin" value="158">Pumpkin</option>
+    <option class="Tangerine" value="49">Tangerine</option>
+    <option class="Cinnamon" value="77">Cinnamon</option>
+    <option class="Caramel" value="156">Caramel</option>
+    <option class="Sand" value="50">Sand</option>
+    <option class="Tan" value="76">Tan</option>
+    <option class="Beige" value="51">Beige</option>
+    <option class="Stone" value="52">Stone</option>
+    <option class="Taupe" value="95">Taupe</option>
+    <option class="Slate" value="53">Slate</option>
+    <option class="Driftwood" value="165">Driftwood</option>
+    <option class="Latte" value="143">Latte</option>
+    <option class="Dirt" value="162">Dirt</option>
+    <option class="Clay" value="106">Clay</option>
+    <option class="Sable" value="138">Sable</option>
+    <option class="Umber" value="157">Umber</option>
+    <option class="Soil" value="54">Soil</option>
+    <option class="Hickory" value="88">Hickory</option>
+    <option class="Tarnish" value="124">Tarnish</option>
+    <option class="Ginger" value="122">Ginger</option>
+    <option class="Brown" value="55">Brown</option>
+    <option class="Chocolate" value="56">Chocolate</option>
+    <option class="Auburn" value="166">Auburn</option>
+    <option class="Copper" value="94">Copper</option>
+    <option class="Rust" value="57">Rust</option>
+    <option class="Tomato" value="58">Tomato</option>
+    <option class="Vermilion" value="169">Vermilion</option>
+    <option class="Ruby" value="86">Ruby</option>
+    <option class="Cherry" value="116">Cherry</option>
+    <option class="Crimson" value="59">Crimson</option>
+    <option class="Garnet" value="161">Garnet</option>
+    <option class="Sanguine" value="121">Sanguine</option>
+    <option class="Blood" value="60">Blood</option>
+    <option class="Maroon" value="61">Maroon</option>
+    <option class="Berry" value="87">Berry</option>
+    <option class="Red" value="62">Red</option>
+    <option class="Strawberry" value="168">Strawberry</option>
+    <option class="Cerise" value="132">Cerise</option>
+    <option class="Carmine" value="63">Carmine</option>
+    <option class="Brick" value="107">Brick</option>
+    <option class="Coral" value="64">Coral</option>
+    <option class="Blush" value="159">Blush</option>
+    <option class="Cottoncandy" value="164">Cottoncandy</option>
+    <option class="Watermelon" value="120">Watermelon</option>
+    <option class="Magenta" value="65">Magenta</option>
+    <option class="Fuchsia" value="170">Fuchsia</option>
+    <option class="Raspberry" value="160">Raspberry</option>
+    <option class="Wine" value="72">Wine</option>
+    <option class="Mauve" value="73">Mauve</option>
+    <option class="Pink" value="66">Pink</option>
+    <option class="Bubblegum" value="109">Bubblegum</option>
+    <option class="Rose" value="67">Rose</option>
+    <option class="Pearl" value="85">Pearl</option>
+   </select>
+  </div>
+
+  <!-- Selecting tertiary gene+colour -->
+  <div align= "center"> 
+   <label for="tertiary">Tertiary Gene</label>
+   <select name="tertiary2"id="tertiary2">
+   <option value= "0">Basic</option>
+   <option value= "18">Capsule</option>
+   <option value="1">Circuit</option>
+   <option value="13">Contour</option>
+   <option value="6">Crackle</option>
+   <option value="484">Darts</option>
+   <option value="421">Eclipse</option>
+   <option value="21">Filigree</option>
+   <option value="161">Firebreather</option>
+   <option value="22">Firefly</option>
+   <option value="103">Flecks</option>
+   <option value="411">Gecko</option>
+   <option value="4">Gembond</option>
+   <option value="20">Ghost</option>
+   <option value="10">Glimmer</option>
+   <option value="54">Glowtail</option>
+   <option value="53">Keel</option>
+   <option value="73">Koi</option>
+   <option value="16">Lace</option>
+   <option value="584">Magpie</option>
+   <option value="9">Okapi</option>
+   <option value="17">Opal</option>
+   <option value="24">Peacock</option>
+   <option value="107">Points</option>
+   <option value="168">Polkadot</option>
+   <option value="23">Ringlets</option>
+   <option value="14">Runes</option>
+   <option value="15">Scales</option>
+   <option value="19">Smirch</option>
+   <option value="7">Smoke</option>
+   <option value="105">Soap</option>
+   <option value="97">Sparkle</option>
+   <option value="8">Spines</option>
+   <option value="12">Stained</option>
+   <option value="11">Thylacine</option>
+   <option value="5">Underbelly</option>
+   <option value="38">Veined</option>
+   <option value="213">Wish</option>
+   </select>
+
+   <label for="colour">Tertiary Colour</label>
+   <select name="tertiarycol2"id="tertiarycol2">
+    <option class="Maize" value="1">Maize</option>
+    <option class="Cream" value="163">Cream</option>
+    <option class="Antique" value="97">Antique</option>
+    <option class="White" value="2">White</option>
+    <option class="Moon" value="74">Moon</option>
+    <option class="Ice" value="3">Ice</option>
+    <option class="Orca" value="131">Orca</option>
+    <option class="Platinum" value="4">Platinum</option>
+    <option class="Silver" value="5">Silver</option>
+    <option class="Dust" value="146">Dust</option>
+    <option class="Grey" value="6">Grey</option>
+    <option class="Smoke" value="91">Smoke</option>
+    <option class="Gloom" value="98">Gloom</option>
+    <option class="Lead" value="118">Lead</option>
+    <option class="Shale" value="177">Shale</option>
+    <option class="Flint" value="129">Flint</option>
+    <option class="Charcoal" value="7">Charcoal</option>
+    <option class="Coal" value="8">Coal</option>
+    <option class="Oilslick" value="70">Oilslick</option>
+    <option class="Black" value="9">Black</option>
+    <option class="Obsidian" value="10">Obsidian</option>
+    <option class="Eldritch" value="176">Eldritch</option>
+    <option class="Midnight" value="11">Midnight</option>
+    <option class="Shadow" value="12">Shadow</option>
+    <option class="Blackberry" value="127">Blackberry</option>
+    <option class="Mulberry" value="13">Mulberry</option>
+    <option class="Plum" value="92">Plum</option>
+    <option class="Wisteria" value="119">Wisteria</option>
+    <option class="Thistle" value="14">Thistle</option>
+    <option class="Fog" value="137">Fog</option>
+    <option class="Mist" value="150">Mist</option>
+    <option class="Lavender" value="15">Lavender</option>
+    <option class="Heather" value="68">Heather</option>
+    <option class="Purple" value="16">Purple</option>
+    <option class="Orchid" value="69">Orchid</option>
+    <option class="Amethyst" value="114">Amethyst</option>
+    <option class="Nightshade" value="175">Nightshade</option>
+    <option class="Violet" value="17">Violet</option>
+    <option class="Grape" value="147">Grape</option>
+    <option class="Royal" value="18">Royal</option>
+    <option class="Eggplant" value="111">Eggplant</option>
+    <option class="Iris" value="82">Iris</option>
+    <option class="Storm" value="19">Storm</option>
+    <option class="Twilight" value="174">Twilight</option>
+    <option class="Indigo" value="112">Indigo</option>
+    <option class="Sapphire" value="71">Sapphire</option>
+    <option class="Navy" value="20">Navy</option>
+    <option class="Cobalt" value="136">Cobalt</option>
+    <option class="Ultramarine" value="90">Ultramarine</option>
+    <option class="Blue" value="21">Blue</option>
+    <option class="Periwinkle" value="135">Periwinkle</option>
+    <option class="Lapis" value="148">Lapis</option>
+    <option class="Splash" value="22">Splash</option>
+    <option class="Cornflower" value="145">Cornflower</option>
+    <option class="Sky" value="23">Sky</option>
+    <option class="Stonewash" value="24">Stonewash</option>
+    <option class="Overcast" value="126">Overcast</option>
+    <option class="Steel" value="25">Steel</option>
+    <option class="Denim" value="26">Denim</option>
+    <option class="Abyss" value="96">Abyss</option>
+    <option class="Phthalo" value="151">Phthalo</option>
+    <option class="Azure" value="27">Azure</option>
+    <option class="Caribbean" value="28">Caribbean</option>
+    <option class="Teal" value="29">Teal</option>
+    <option class="Cerulean" value="117">Cerulean</option>
+    <option class="Cyan" value="89">Cyan</option>
+    <option class="Robin" value="99">Robin</option>
+    <option class="Aqua" value="30">Aqua</option>
+    <option class="Turquoise" value="149">Turquoise</option>
+    <option class="Spruce" value="100">Spruce</option>
+    <option class="Pistachio" value="125">Pistachio</option>
+    <option class="Seafoam" value="31">Seafoam</option>
+    <option class="Mint" value="152">Mint</option>
+    <option class="Jade" value="32">Jade</option>
+    <option class="Spearmint" value="78">Spearmint</option>
+    <option class="Thicket" value="141">Thicket</option>
+    <option class="Peacock" value="134">Peacock</option>
+    <option class="Emerald" value="33">Emerald</option>
+    <option class="Shamrock" value="80">Shamrock</option>
+    <option class="Jungle" value="34">Jungle</option>
+    <option class="Hunter" value="81">Hunter</option>
+    <option class="Forest" value="35">Forest</option>
+    <option class="Camo" value="154">Camo</option>
+    <option class="Algae" value="153">Algae</option>
+    <option class="Swamp" value="36">Swamp</option>
+    <option class="Avocado" value="37">Avocado</option>
+    <option class="Green" value="38">Green</option>
+    <option class="Fern" value="113">Fern</option>
+    <option class="Mantis" value="79">Mantis</option>
+    <option class="Pear" value="101">Pear</option>
+    <option class="Leaf" value="39">Leaf</option>
+    <option class="Radioactive" value="130">Radioactive</option>
+    <option class="Honeydew" value="102">Honeydew</option>
+    <option class="Peridot" value="144">Peridot</option>
+    <option class="Chartreuse" value="155">Chartreuse</option>
+    <option class="Spring" value="40">Spring</option>
+    <option class="Crocodile" value="173">Crocodile</option>
+    <option class="Olive" value="123">Olive</option>
+    <option class="Murk" value="142">Murk</option>
+    <option class="Moss" value="115">Moss</option>
+    <option class="Goldenrod" value="41">Goldenrod</option>
+    <option class="Amber" value="103">Amber</option>
+    <option class="Honey" value="93">Honey</option>
+    <option class="Lemon" value="42">Lemon</option>
+    <option class="Yellow" value="104">Yellow</option>
+    <option class="Grapefruit" value="128">Grapefruit</option>
+    <option class="Banana" value="43">Banana</option>
+    <option class="Sanddollar" value="110">Sanddollar</option>
+    <option class="Flaxen" value="139">Flaxen</option>
+    <option class="Ivory" value="44">Ivory</option>
+    <option class="Buttercup" value="167">Buttercup</option>
+    <option class="Gold" value="45">Gold</option>
+    <option class="Metals" value="140">Metals</option>
+    <option class="Marigold" value="75">Marigold</option>
+    <option class="Sunshine" value="46">Sunshine</option>
+    <option class="Saffron" value="84">Saffron</option>
+    <option class="Sunset" value="172">Sunset</option>
+    <option class="Peach" value="105">Peach</option>
+    <option class="Cantaloupe" value="171">Cantaloupe</option>
+    <option class="Orange" value="47">Orange</option>
+    <option class="Bronze" value="83">Bronze</option>
+    <option class="Terracotta" value="108">Terracotta</option>
+    <option class="Carrot" value="133">Carrot</option>
+    <option class="Fire" value="48">Fire</option>
+    <option class="Pumpkin" value="158">Pumpkin</option>
+    <option class="Tangerine" value="49">Tangerine</option>
+    <option class="Cinnamon" value="77">Cinnamon</option>
+    <option class="Caramel" value="156">Caramel</option>
+    <option class="Sand" value="50">Sand</option>
+    <option class="Tan" value="76">Tan</option>
+    <option class="Beige" value="51">Beige</option>
+    <option class="Stone" value="52">Stone</option>
+    <option class="Taupe" value="95">Taupe</option>
+    <option class="Slate" value="53">Slate</option>
+    <option class="Driftwood" value="165">Driftwood</option>
+    <option class="Latte" value="143">Latte</option>
+    <option class="Dirt" value="162">Dirt</option>
+    <option class="Clay" value="106">Clay</option>
+    <option class="Sable" value="138">Sable</option>
+    <option class="Umber" value="157">Umber</option>
+    <option class="Soil" value="54">Soil</option>
+    <option class="Hickory" value="88">Hickory</option>
+    <option class="Tarnish" value="124">Tarnish</option>
+    <option class="Ginger" value="122">Ginger</option>
+    <option class="Brown" value="55">Brown</option>
+    <option class="Chocolate" value="56">Chocolate</option>
+    <option class="Auburn" value="166">Auburn</option>
+    <option class="Copper" value="94">Copper</option>
+    <option class="Rust" value="57">Rust</option>
+    <option class="Tomato" value="58">Tomato</option>
+    <option class="Vermilion" value="169">Vermilion</option>
+    <option class="Ruby" value="86">Ruby</option>
+    <option class="Cherry" value="116">Cherry</option>
+    <option class="Crimson" value="59">Crimson</option>
+    <option class="Garnet" value="161">Garnet</option>
+    <option class="Sanguine" value="121">Sanguine</option>
+    <option class="Blood" value="60">Blood</option>
+    <option class="Maroon" value="61">Maroon</option>
+    <option class="Berry" value="87">Berry</option>
+    <option class="Red" value="62">Red</option>
+    <option class="Strawberry" value="168">Strawberry</option>
+    <option class="Cerise" value="132">Cerise</option>
+    <option class="Carmine" value="63">Carmine</option>
+    <option class="Brick" value="107">Brick</option>
+    <option class="Coral" value="64">Coral</option>
+    <option class="Blush" value="159">Blush</option>
+    <option class="Cottoncandy" value="164">Cottoncandy</option>
+    <option class="Watermelon" value="120">Watermelon</option>
+    <option class="Magenta" value="65">Magenta</option>
+    <option class="Fuchsia" value="170">Fuchsia</option>
+    <option class="Raspberry" value="160">Raspberry</option>
+    <option class="Wine" value="72">Wine</option>
+    <option class="Mauve" value="73">Mauve</option>
+    <option class="Pink" value="66">Pink</option>
+    <option class="Bubblegum" value="109">Bubblegum</option>
+    <option class="Rose" value="67">Rose</option>
+    <option class="Pearl" value="85">Pearl</option>
+   </select>
+  </div>
+
+  <!-- Show me the results button -->
+  <div align = "center">
+   <button id="results">Predict!!</button>
+  </div>
+
+   <!-- Show the possibilities -->
+  <div align="center"id="possibilities">
+  </div>
+
+   <!-- script on changing the options depending on breed. to do: make a separate data file with all of the breeds with their genes and rarity - 
+   separate by modern and each ancient. second, bar a user from being able to submit 2 different ancient breeds or an ancient and a modern. 
+   add selections for the 2nd parent. -->
+   <script type="text/javascript"src="data.js"></script>
+   <script type="text/javascript"src="offspringScript.js"></script>
+   <script type="text/javascript"src="FRBreeding.js"></script>
+   
+
+
+ </body>
+ 
+
+</html>

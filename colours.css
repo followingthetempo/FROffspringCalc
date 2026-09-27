@@ -1,0 +1,709 @@
+.Maize {
+  font-family: Arial, sans-serif;
+  background-color: #FFFDEA;
+} 
+
+.Cream {
+  font-family: Arial, sans-serif;
+  background-color:#FFEFDC;
+} 
+.Antique {
+  font-family: Arial, sans-serif;
+  background-color: #D8D6CD;
+}
+.White {
+  font-family: Arial, sans-serif;
+  background-color:#FFFFFF;
+} 
+.Moon {
+  font-family: Arial, sans-serif;
+  background-color:#D8D7D8;
+}
+.Ice {
+  font-family: Arial, sans-serif;
+  background-color:#EBEFFF;
+} 
+.Orca {
+  font-family: Arial, sans-serif;
+  background-color:#E0DFFF;
+} 
+.Platinum {
+  font-family: Arial, sans-serif;
+  background-color:#C8BECE;
+} 
+.Silver {
+  font-family: Arial, sans-serif;
+  background-color:#BBBABF;
+} 
+.Dust {
+  font-family: Arial, sans-serif;
+  background-color:#9C9C9E;
+} 
+.Grey {
+  font-family: Arial, sans-serif;
+  background-color:#808080;
+} 
+.Smoke {
+  font-family: Arial, sans-serif;
+  background-color:#9494A9;
+}
+.Gloom {
+  font-family: Arial, sans-serif;
+  background-color:#535264;
+}    
+.Lead {
+  font-family: Arial, sans-serif;
+  background-color:#413C3F;
+} 
+.Shale {
+  font-family: Arial, sans-serif;
+  background-color:#4D4850;
+} 
+.Flint {
+  font-family: Arial, sans-serif;
+  background-color:#626268;
+} 
+.Charcoal {
+  font-family: Arial, sans-serif;
+  background-color:#545454;
+} 
+.Coal {
+  font-family: Arial, sans-serif;
+  background-color:#4B4946;
+} 
+.Oilslick {
+  font-family: Arial, sans-serif;
+  background-color:#342B25;
+}   
+.Black {
+  font-family: Arial, sans-serif;
+  background-color:#333333;
+} 
+.Obsidian {
+  font-family: Arial, sans-serif;
+  background-color:#1D2224;
+}
+.Eldritch {
+  font-family: Arial, sans-serif;
+  background-color:#252A25;
+} 
+.Midnight {
+  font-family: Arial, sans-serif;
+  background-color:#252735;  
+}  
+.Shadow {
+  font-family: Arial, sans-serif;
+  background-color:#3A2E44;  
+}   
+.Blackberry {
+  font-family: Arial, sans-serif;
+  background-color:#4B294F;
+} 
+.Mulberry {
+  font-family: Arial, sans-serif;
+  background-color:#6F235D;
+}    
+.Plum {
+  font-family: Arial, sans-serif;
+  background-color:#853390;
+} 
+.Wisteria {
+  font-family: Arial, sans-serif;
+  background-color:#724F7B;
+} 
+.Thistle {
+  font-family: Arial, sans-serif;
+  background-color:#8F7C8B;
+} 
+.Fog {
+  font-family: Arial, sans-serif;
+  background-color:#A593B0;
+} 
+.Mist {
+  font-family: Arial, sans-serif;
+  background-color:#E1CEFF;
+} 
+.Lavender {
+  font-family: Arial, sans-serif;
+  background-color:#CCA4E0;
+} 
+.Heather {
+  font-family: Arial, sans-serif;
+  background-color:#9777BD;
+} 
+.Purple {
+  font-family: Arial, sans-serif;
+  background-color:#A261CF;
+} 
+.Orchid {
+  font-family: Arial, sans-serif;
+  background-color:#D950FF;
+} 
+.Amethyst {
+  font-family: Arial, sans-serif;
+  background-color:#993BD0;
+} 
+.Nightshade {
+  font-family: Arial, sans-serif;
+  background-color:#782EB2;
+} 
+.Violet {
+  font-family: Arial, sans-serif;
+  background-color:#643F9C;
+} 
+.Grape {
+  font-family: Arial, sans-serif;
+  background-color:#570FC0;
+} 
+.Royal {
+  font-family: Arial, sans-serif;
+  background-color:#4D2C89;
+} 
+.Eggplant {
+  font-family: Arial, sans-serif;
+  background-color:#332B65;
+} 
+.Iris {
+  font-family: Arial, sans-serif;
+  background-color:#535195;
+} 
+.Storm {
+  font-family: Arial, sans-serif;
+  background-color:#757ADB;
+} 
+.Twilight {
+  font-family: Arial, sans-serif;
+  background-color:#474AA0;
+} 
+.Indigo {
+  font-family: Arial, sans-serif;
+  background-color:#2D237A;
+} 
+.Sapphire {
+  font-family: Arial, sans-serif;
+  background-color:#0D095B;
+} 
+.Navy {
+  font-family: Arial, sans-serif;
+  background-color:#212B5F;
+} 
+.Cobalt {
+  font-family: Arial, sans-serif;
+  background-color:#003484;
+} 
+.Ultramarine {
+  font-family: Arial, sans-serif;
+  background-color:#1C51E7;
+} 
+.Blue {
+  font-family: Arial, sans-serif;
+  background-color:#324BA9;
+} 
+.Periwinkle {
+  font-family: Arial, sans-serif;
+  background-color:#4866D5;
+} 
+.Lapis {
+  font-family: Arial, sans-serif;
+  background-color:#2B84FF;
+} 
+.Splash {
+  font-family: Arial, sans-serif;
+  background-color:#6392DF;
+} 
+.Cornflower {
+  font-family: Arial, sans-serif;
+  background-color:#75A8FF;
+} 
+.Sky {
+  font-family: Arial, sans-serif;
+  background-color:#AEC8FF;
+} 
+.Stonewash {
+  font-family: Arial, sans-serif;
+  background-color:#7895C1;
+} 
+.Overcast {
+  font-family: Arial, sans-serif;
+  background-color:#444F69;
+} 
+.Steel {
+  font-family: Arial, sans-serif;
+  background-color:#556979;
+} 
+.Denim {
+  font-family: Arial, sans-serif;
+  background-color:#2F4557;
+} 
+.Abyss {
+  font-family: Arial, sans-serif;
+  background-color:#0D1E24;
+} 
+.Phthalo {
+  font-family: Arial, sans-serif;
+  background-color:#0B2D46;
+} 
+.Azure {
+  font-family: Arial, sans-serif;
+  background-color:#0A3D67;
+} 
+.Caribbean {
+  font-family: Arial, sans-serif;
+  background-color:#0086CE;
+} 
+.Teal {
+  font-family: Arial, sans-serif;
+  background-color:#2B768F;
+} 
+.Cerulean {
+  font-family: Arial, sans-serif;
+  background-color:#00B4D6;
+} 
+.Cyan {
+  font-family: Arial, sans-serif;
+  background-color:#00FFF0;
+} 
+.Robin {
+  font-family: Arial, sans-serif;
+  background-color:#9AEAEF;
+} 
+.Aqua {
+  font-family: Arial, sans-serif;
+  background-color:#72C4C4;
+} 
+.Turquoise {
+  font-family: Arial, sans-serif;
+  background-color:#3AA0A1;
+} 
+.Spruce {
+  font-family: Arial, sans-serif;
+  background-color:#8BBBB2;
+} 
+.Pistachio {
+  font-family: Arial, sans-serif;
+  background-color:#E2FFE6;
+} 
+.Seafoam {
+  font-family: Arial, sans-serif;
+  background-color:#B2E2BD;
+} 
+.Mint {
+  font-family: Arial, sans-serif;
+  background-color:#9AFFC7;
+} 
+.Jade {
+  font-family: Arial, sans-serif;
+  background-color:#61AB89;
+} 
+.Spearmint {
+  font-family: Arial, sans-serif;
+  background-color:#148F67;
+} 
+.Thicket {
+  font-family: Arial, sans-serif;
+  background-color:#005F48;
+} 
+.Peacock {
+  font-family: Arial, sans-serif;
+  background-color:#20603F;
+} 
+.Emerald {
+  font-family: Arial, sans-serif;
+  background-color:#21613F;
+} 
+.Shamrock {
+  font-family: Arial, sans-serif;
+  background-color:#236925;
+} 
+.Jungle {
+  font-family: Arial, sans-serif;
+  background-color:#1F361A;
+} 
+.Hunter {
+  font-family: Arial, sans-serif;
+  background-color:#1D2715;
+}    
+.Forest {
+  font-family: Arial, sans-serif;
+  background-color:#425035;
+} 
+.Camo {
+  font-family: Arial, sans-serif;
+  background-color:#51684C;
+} 
+.Algae {
+  font-family: Arial, sans-serif;
+  background-color:#97AF8B;
+} 
+.Swamp {
+  font-family: Arial, sans-serif;
+  background-color:#687F67;
+} 
+.Avocado {
+  font-family: Arial, sans-serif;
+  background-color:#567C34;
+} 
+.Green {
+  font-family: Arial, sans-serif;
+  background-color:#629C3F;
+} 
+.Fern {
+  font-family: Arial, sans-serif;
+  background-color:#7ECE73;
+} 
+.Mantis {
+  font-family: Arial, sans-serif;
+  background-color:#99FF9C;
+} 
+.Pear {
+  font-family: Arial, sans-serif;
+  background-color:#8ECD55;
+} 
+.Leaf {
+  font-family: Arial, sans-serif;
+  background-color:#A5E32D;
+} 
+.Radioactive {
+  font-family: Arial, sans-serif;
+  background-color:#C6FF00;
+} 
+.Honeydew {
+  font-family: Arial, sans-serif;
+  background-color:#D0E672;
+} 
+.Peridot {
+  font-family: Arial, sans-serif;
+  background-color:#E8FFB5;
+} 
+.Chartreuse {
+  font-family: Arial, sans-serif;
+  background-color:#B4CD3C;
+} 
+.Spring {
+  font-family: Arial, sans-serif;
+  background-color:#A9A832;
+} 
+.Crocodile {
+  font-family: Arial, sans-serif;
+  background-color:#828335;
+} 
+.Olive {
+  font-family: Arial, sans-serif;
+  background-color:#697135;
+} 
+.Murk {
+  font-family: Arial, sans-serif;
+  background-color:#4B4420;
+} 
+.Moss {
+  font-family: Arial, sans-serif;
+  background-color:#7F7745;
+} 
+.Goldenrod {
+  font-family: Arial, sans-serif;
+  background-color:#BEA55D;
+} 
+.Amber {
+  font-family: Arial, sans-serif;
+  background-color:#C18E1B;
+} 
+.Honey {
+  font-family: Arial, sans-serif;
+  background-color:#D1B300;
+} 
+.Lemon {
+  font-family: Arial, sans-serif;
+  background-color:#FFE63B;
+} 
+.Yellow {
+  font-family: Arial, sans-serif;
+  background-color:#F9E255;
+} 
+.Grapefruit {
+  font-family: Arial, sans-serif;
+  background-color:#F7FF6F;
+} 
+.Banana {
+  font-family: Arial, sans-serif;
+  background-color:#FFEC80;
+} 
+.Sanddollar {
+  font-family: Arial, sans-serif;
+  background-color:#EBE7AE;
+} 
+.Flaxen {
+  font-family: Arial, sans-serif;
+  background-color:#FDE9AE;
+} 
+.Ivory {
+  font-family: Arial, sans-serif;
+  background-color:#FFD297;
+} 
+.Buttercup {
+  font-family: Arial, sans-serif;
+  background-color:#F6BF6B;
+} 
+.Gold {
+  font-family: Arial, sans-serif;
+  background-color:#E8AF49;
+} 
+.Metals {
+  font-family: Arial, sans-serif;
+  background-color:#D1B046;
+} 
+.Marigold {
+  font-family: Arial, sans-serif;
+  background-color:#FFB43B;
+} 
+.Sunshine {
+  font-family: Arial, sans-serif;
+  background-color:#FA912B;
+} 
+.Saffron {
+  font-family: Arial, sans-serif;
+  background-color:#FF8400;
+} 
+.Sunset {
+  font-family: Arial, sans-serif;
+  background-color:#FFA248;
+} 
+.Peach {
+  font-family: Arial, sans-serif;
+  background-color:#FFB576;
+} 
+.Cantaloupe {
+  font-family: Arial, sans-serif;
+  background-color:#FF984F;
+} 
+.Orange {
+  font-family: Arial, sans-serif;
+  background-color:#D5602B;
+} 
+.Bronze {
+  font-family: Arial, sans-serif;
+  background-color:#B2560D;
+} 
+.Terracotta {
+  font-family: Arial, sans-serif;
+  background-color:#B23B07;
+} 
+.Carrot {
+  font-family: Arial, sans-serif;
+  background-color:#FF5500;
+} 
+.Fire {
+  font-family: Arial, sans-serif;
+  background-color:#EF5C23;
+} 
+.Pumpkin {
+  font-family: Arial, sans-serif;
+  background-color:#FF6840;
+} 
+.Tangerine {
+  font-family: Arial, sans-serif;
+  background-color:#FF7360;
+} 
+.Cinnamon {
+  font-family: Arial, sans-serif;
+  background-color:#C05A39;
+} 
+.Caramel {
+  font-family: Arial, sans-serif;
+  background-color:#C67047;
+} 
+.Sand {
+  font-family: Arial, sans-serif;
+  background-color:#B27749;
+} 
+.Tan {
+  font-family: Arial, sans-serif;
+  background-color:#C49A70;
+} 
+.Beige {
+  font-family: Arial, sans-serif;
+  background-color:#CABBA2;
+} 
+.Stone {
+  font-family: Arial, sans-serif;
+  background-color:#827A64;
+} 
+.Taupe {
+  font-family: Arial, sans-serif;
+  background-color:#6D665A;
+} 
+.Slate {
+  font-family: Arial, sans-serif;
+  background-color:#564D48;
+} 
+.Driftwood {
+  font-family: Arial, sans-serif;
+  background-color:#766359;
+} 
+.Latte {
+  font-family: Arial, sans-serif;
+  background-color:#977B6C;
+} 
+.Dirt {
+  font-family: Arial, sans-serif;
+  background-color:#76483F;
+} 
+.Clay {
+  font-family: Arial, sans-serif;
+  background-color:#603F3D;
+} 
+.Sable {
+  font-family: Arial, sans-serif;
+  background-color:#57372C;
+} 
+.Umber {
+  font-family: Arial, sans-serif;
+  background-color:#2F1E1A;
+} 
+.Soil {
+  font-family: Arial, sans-serif;
+  background-color:#5A4534;
+} 
+.Hickory {
+  font-family: Arial, sans-serif;
+  background-color:#725639;
+} 
+.Tarnish {
+  font-family: Arial, sans-serif;
+  background-color:#855C32;
+} 
+.Ginger {
+  font-family: Arial, sans-serif;
+  background-color:#90532B;
+} 
+.Brown {
+  font-family: Arial, sans-serif;
+  background-color:#8F5B3F;
+} 
+.Chocolate {
+  font-family: Arial, sans-serif;
+  background-color:#563012;
+} 
+.Auburn {
+  font-family: Arial, sans-serif;
+  background-color:#7B3C1D;
+} 
+.Copper {
+  font-family: Arial, sans-serif;
+  background-color:#A44B28;
+} 
+.Rust {
+  font-family: Arial, sans-serif;
+  background-color:#8B3220;
+} 
+.Tomato {
+  font-family: Arial, sans-serif;
+  background-color:#BA311C;
+} 
+.Vermilion {
+  font-family: Arial, sans-serif;
+  background-color:#E22D17;
+} 
+.Ruby {
+  font-family: Arial, sans-serif;
+  background-color:#CD000E;
+} 
+.Cherry {
+  font-family: Arial, sans-serif;
+  background-color:#AA0024;
+} 
+.Crimson {
+  font-family: Arial, sans-serif;
+  background-color:#850012;
+} 
+.Garnet {
+  font-family: Arial, sans-serif;
+  background-color:#5B0F14;
+} 
+.Sanguine {
+  font-family: Arial, sans-serif;
+  background-color:#2F0002;
+} 
+.Blood {
+  font-family: Arial, sans-serif;
+  background-color:#451717;
+} 
+.Maroon {
+  font-family: Arial, sans-serif;
+  background-color:#652127;
+} 
+.Berry {
+  font-family: Arial, sans-serif;
+  background-color:#8B272C;
+} 
+.Red {
+  font-family: Arial, sans-serif;
+  background-color:#C1272D;
+} 
+.Strawberry {
+  font-family: Arial, sans-serif;
+  background-color:#DE3235;
+} 
+.Cerise {
+  font-family: Arial, sans-serif;
+  background-color:#A22929;
+} 
+.Carmine {
+  font-family: Arial, sans-serif;
+  background-color:#B13A3A;
+} 
+.Brick {
+  font-family: Arial, sans-serif;
+  background-color:#9A534D;
+} 
+.Coral {
+  font-family: Arial, sans-serif;
+  background-color:#CC6F6F;
+} 
+.Blush {
+  font-family: Arial, sans-serif;
+  background-color:#FFA2A2;
+} 
+.Cottoncandy {
+  font-family: Arial, sans-serif;
+  background-color:#EB7997;
+} 
+.Watermelon {
+  font-family: Arial, sans-serif;
+  background-color:#DB518D;
+} 
+.Magenta {
+  font-family: Arial, sans-serif;
+  background-color:#E934AA;
+} 
+.Fuchsia {
+  font-family: Arial, sans-serif;
+  background-color:#EC0089;
+} 
+.Raspberry {
+  font-family: Arial, sans-serif;
+  background-color:#8A0249;
+} 
+.Wine {
+  font-family: Arial, sans-serif;
+  background-color:#4D0F28;
+} 
+.Mauve {
+  font-family: Arial, sans-serif;
+  background-color:#9C4875;
+} 
+.Pink {
+  font-family: Arial, sans-serif;
+  background-color:#E77FBF;
+} 
+.Bubblegum {
+  font-family: Arial, sans-serif;
+  background-color:#EAA9FF;
+} 
+.Rose {
+  font-family: Arial, sans-serif;
+  background-color:#FFD6F6;
+} 
+.Pearl {
+  font-family: Arial, sans-serif;
+  background-color:#FBE9F8;
+} 

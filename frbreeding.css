@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d2e9ff;
+  background-image: url("https://64.media.tumblr.com/a5cbdf9f87bd7dcb737c1ee81df0cb59/tumblr_inline_mns7vmgGqW1qz4rgp.png");
+  margin: 0;
+
+}
+
+h1 {
+    font-family: Arial,sans-serif;
+    font-size:35px;
+    background-color:#7fbdf7;
+    padding-bottom:5px;
+    margin-bottom:15px;
+    
+}
+
+select {
+    font-family: Arial, sans-serif;
+    line-height: 9px;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
