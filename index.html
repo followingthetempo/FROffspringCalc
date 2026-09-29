@@ -5,7 +5,7 @@
  </head>
 
  <body>
-  <div align = "center"> <h1>Flight Rising Breeding Chance Calculator</h1></div>
+  <div class = "geneselection"> <h1>Flight Rising Breeding Chance Calculator</h1>
   <!-- Selecting parents -->
   <div align= "center"> 
    <label for="father">Parent 1</label>
@@ -1503,6 +1503,7 @@
     <option class="Pearl" value="85">Pearl</option>
    </select>
   </div>
+</div>
 
   <!-- Show me the results button -->
   <div align = "center">
@@ -1510,12 +1511,15 @@
   </div>
 
    <!-- Show the possibilities -->
-  <div align="center"id="possibilities">
+  <div class = "parent">
+    <div class = "probabilitybox" id="probabilities">
+    </div>
+
+    <div class = "offspringbox" id="offspring">
+    </div>
   </div>
 
-   <!-- script on changing the options depending on breed. to do: make a separate data file with all of the breeds with their genes and rarity - 
-   separate by modern and each ancient. second, bar a user from being able to submit 2 different ancient breeds or an ancient and a modern. 
-   add selections for the 2nd parent. -->
+   <!-- JS scripts to do the calculations on the gene/breed chances, and generating possible offspring. -->
    <script type="text/javascript"src="data.js"></script>
    <script type="text/javascript"src="offspringScript.js"></script>
    <script type="text/javascript"src="FRBreeding.js"></script>

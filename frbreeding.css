@@ -22,3 +22,18 @@ select {
     padding: 0px;
     margin: 0px;
 }
+
+th, td {
+    padding: 20px; 
+}
+.parent {
+    display: flex;
+}
+
+.probabilitybox {
+    flex: 1;
+}
+
+.offspringbox { 
+    flex: 1;
+}

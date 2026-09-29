@@ -108,16 +108,29 @@ function getPossibilities() {
         var secondaryRange = colourRange(fatherSCol,motherSCol);
         var tertiaryRange = colourRange(fatherTCol,motherTCol);
 
+        var offspring1 = outcome(fatherSel,motherSel) +"<p>"+outcome(fatherPGene,motherPGene)+", "+primaryRange[Math.floor(Math.random()*primaryRange.length)]
+        +"</p>"+outcome(fatherSGene,motherSGene)+", "+secondaryRange[Math.floor(Math.random()*secondaryRange.length)]
+        +"</p>"+outcome(fatherTGene,motherTGene)+", "+tertiaryRange[Math.floor(Math.random()*tertiaryRange.length)] + "</p>";
+        var offspring2 = "<p>" + outcome(fatherSel,motherSel) +"<p>"+outcome(fatherPGene,motherPGene)+", "+primaryRange[Math.floor(Math.random()*primaryRange.length)]
+        +"</p>"+outcome(fatherSGene,motherSGene)+", "+secondaryRange[Math.floor(Math.random()*secondaryRange.length)]
+        +"</p>"+outcome(fatherTGene,motherTGene)+", "+tertiaryRange[Math.floor(Math.random()*tertiaryRange.length)] +"</p>";
+        var offspring3 = "<p>" + outcome(fatherSel,motherSel) +"<p>"+outcome(fatherPGene,motherPGene)+", "+primaryRange[Math.floor(Math.random()*primaryRange.length)]
+        +"</p>"+outcome(fatherSGene,motherSGene)+", "+secondaryRange[Math.floor(Math.random()*secondaryRange.length)]
+        +"</p>"+outcome(fatherTGene,motherTGene)+", "+tertiaryRange[Math.floor(Math.random()*tertiaryRange.length)] +"</p>";
+        var offspring4 = "<p>" + outcome(fatherSel,motherSel) +"<p>"+outcome(fatherPGene,motherPGene)+", "+primaryRange[Math.floor(Math.random()*primaryRange.length)]
+        +"</p>"+outcome(fatherSGene,motherSGene)+", "+secondaryRange[Math.floor(Math.random()*secondaryRange.length)]
+        +"</p>"+outcome(fatherTGene,motherTGene)+", "+tertiaryRange[Math.floor(Math.random()*tertiaryRange.length)] +"</p>";
+
         var probability = "<h2>Probabilities</h2>" + rarity(fatherSel,motherSel)+
         "<p>"+rarity(fatherPGene,motherPGene)+", "+ printColours(primaryRange)+
-        "</p>"+rarity(fatherSGene,motherSGene)+", "+ printColours(secondaryRange)+
-        "</p>"+rarity(fatherTGene,motherTGene)+", "+ printColours(tertiaryRange);
+        "</p><p>"+rarity(fatherSGene,motherSGene)+", "+ printColours(secondaryRange)+
+        "</p><p>"+rarity(fatherTGene,motherTGene)+", "+ printColours(tertiaryRange) + "</p>";
 
-        var possibility = "<h2>Possible Offspring</h2>" + outcome(fatherSel,motherSel) +"<p>"+outcome(fatherPGene,motherPGene)+", "+primaryRange[Math.floor(Math.random()*primaryRange.length)]
-        +"</p>"+outcome(fatherSGene,motherSGene)+", "+secondaryRange[Math.floor(Math.random()*secondaryRange.length)]
-        +"</p>"+outcome(fatherTGene,motherTGene)+", "+tertiaryRange[Math.floor(Math.random()*tertiaryRange.length)];  
+        var offspring = "<h2>Possible Offspring</h2><table><tr><td>"+offspring1+"</td><td>" + offspring2 +"</td></tr><tr><td>" + offspring3 + "</td><td>" + offspring4
+        +"</td></tr></table>"; 
 
-        document.getElementById("possibilities").innerHTML = probability+possibility;
+        document.getElementById("probabilities").innerHTML = probability
+        document.getElementById("offspring").innerHTML = offspring;
     
     }
     
