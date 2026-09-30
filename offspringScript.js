@@ -1,5 +1,7 @@
 
-function rarity(val1, val2) {
+function rarity(x, y) {
+    var val1 = x.text;
+    var val2 = y.text
     
     if (val1 === val2) {
         return val1 + " 100%";
@@ -73,41 +75,44 @@ function rarity(val1, val2) {
 }
     }
 
-function outcome(val1, val2) { 
+function outcome(x, y) { 
+    var val1 = x.text;
+    var val2 = y.text; 
+    
     var chance = Math.floor(Math.random()*100)+1;
     if (val1 === val2) {
-        return val1;
+        return x;
     }
     else if (rarities.plentiful.includes(val1.split(' (')[0])) {
         if (rarities.plentiful.includes(val2.split(' (')[0])) {
             if (chance <= 50) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
        }else if (rarities.common.includes(val2.split(' (')[0])) { 
             if (chance <= 70) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
        }else if (rarities.uncommon.includes(val2.split(' (')[0])) {
             if (chance <= 85) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
         }else if (rarities.limited.includes(val2.split(' (')[0])) {
             if (chance <= 97) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
         }else if (rarities.rare.includes(val2.split(' (')[0])) {
             if (chance <= 99) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
             
         }
@@ -115,33 +120,33 @@ function outcome(val1, val2) {
     }else if (rarities.common.includes(val1.split(' (')[0])) {
         if (rarities.plentiful.includes(val2.split(' (')[0])) {
             if (chance <= 30) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
        }else if (rarities.common.includes(val2.split(' (')[0])) { 
             if (chance <= 50) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
        }else if (rarities.uncommon.includes(val2.split(' (')[0])) {
             if (chance <= 75) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }
         }else if (rarities.limited.includes(val2.split(' (')[0])) {
             if (chance <= 90) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.rare.includes(val2.split(' (')[0])) {
             if (chance <= 99) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }
     }
@@ -149,98 +154,98 @@ function outcome(val1, val2) {
     else if (rarities.uncommon.includes(val1.split(' (')[0])) {
         if (rarities.plentiful.includes(val2.split(' (')[0])) {
             if (chance <= 15) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
        }else if (rarities.common.includes(val2.split(' (')[0])) { 
             if (chance <= 25) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
        }else if (rarities.uncommon.includes(val2.split(' (')[0])) {
             if (chance <= 50) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.limited.includes(val2.split(' (')[0])) {
             if (chance <= 85) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.rare.includes(val2.split(' (')[0])) {
             if (chance <= 98) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }
 
     }else if (rarities.limited.includes(val1.split(' (')[0])) {
         if (rarities.plentiful.includes(val2.split(' (')[0])) {
             if (chance <= 3) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
        }else if (rarities.common.includes(val2.split(' (')[0])) { 
             if (chance <= 10) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
        }else if (rarities.uncommon.includes(val2.split(' (')[0])) {
             if (chance <= 15) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.limited.includes(val2.split(' (')[0])) {
             if (chance <= 50) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.rare.includes(val2.split(' (')[0])) {
             if (chance <= 97) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             }}
 
   }else if (rarities.rare.includes(val1.split(' (')[0])) {
         if (rarities.plentiful.includes(val2.split(' (')[0])) {
             if (chance <= 1) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
        }else if (rarities.common.includes(val2.split(' (')[0])) { 
             if (chance <= 1) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
        }else if (rarities.uncommon.includes(val2.split(' (')[0])) {
             if (chance <= 2) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.limited.includes(val2.split(' (')[0])) {
             if (chance <= 3) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
         }else if (rarities.rare.includes(val2.split(' (')[0])) {
             if (chance <= 50) {
-                return val1;
+                return x;
             }else{ 
-                return val2;
+                return y;
             };
  }else{
     return "error";
@@ -248,14 +253,16 @@ function outcome(val1, val2) {
 }
     }
 
-function colourRange(col1, col2) {
+function colourRange(x, y) {
+    var col1 = x.text;
+    var col2 = y.text;
     let fatherCol = Object.keys(colours).indexOf(col1);
     let motherCol = Object.keys(colours).indexOf(col2);
     let minVal = Math.min(fatherCol,motherCol);
     let maxVal = Math.max(fatherCol,motherCol);
 
     if (minVal == maxVal) {
-        return [col1];
+        return col1;
     }
     else {
         let range1 = Object.keys(colours).slice(minVal,maxVal+1);

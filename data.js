@@ -29,10 +29,10 @@ const rarities ={"plentiful": ["Fae","Guardian","Mirror","Tundra", "Basic"],
       "Plumage", "Wraith", "Glitch", "Deco", "Mist", "Spectre", "Gnarlhorns", "Veil", "Harp", "Pinions", "Remora", "Mop", "Belfry", "Candlelight", "Overgrow"]};
 
 
-const moderns = ["Fae", "Guardian", "Mirror", "Pearlcatcher", "Ridgeback", "Tundra", "Spiral", "Imperial", "Snapper", "Wildclaw", "Nocturne", "Coatl", "Skydancer", 
-        "Bogsneak", "Obelisk", "Fathom"]
+const moderns = {"Fae": "1", "Guardian": "2", "Mirror": "3", "Pearlcatcher": "4", "Ridgeback": "5", "Tundra": "6", "Spiral": "7", "Imperial": "8", "Snapper": "9", "Wildclaw": "10", "Nocturne": "11", "Coatl": "12", "Skydancer": "13", 
+        "Bogsneak": "14", "Obelisk": "15", "Fathom": "16"}
 //ancient breeds 
-const ancients = ["Gaoler","Banescale","Veilspun","Aberration","Undertide","Aether","Sandsurge","Auraboa","Dusthide","Everlux","Cirrus","Thorntail","Vigil"]
+const ancients = {"Gaoler": "17","Banescale": "18","Veilspun": "19","Aberration": "20 ","Undertide": "21","Aether": "22","Sandsurge": "23","Auraboa": "24","Dusthide": "25","Everlux": "26","Cirrus": "27","Thorntail": "29","Vigil": "28"};
 
 //primary genes - sorted by modern and each ancient breed for easier insertions 
 const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basic"},{value: "232", desc:"Boa"},{value: "110", desc:"Boulder"}, 
@@ -476,9 +476,10 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"245", desc: "Rockbreaker (Sandsurge)"}, {value:"178", desc: "Runes (Sandsurge)"}, {value:"190", desc: "Shark (Sandsurge)"}, {value:"192", desc: "Smirch (Sandsurge)"},
 {value:"469", desc: "Smoke (Sandsurge)"}, {value:"180", desc: "Soap (Sandsurge)"}, {value:"193", desc: "Sparkle (Sandsurge)"}, {value:"188", desc: "Spectre (Sandsurge)"},
 {value:"181", desc: "Spines (Sandsurge)"}, {value:"408", desc: "Spores (Sandsurge)"}, {value:"172", desc: "Stained (Sandsurge)"}, {value:"210", desc: "Starfall (Sandsurge)"},
-{value:"347", desc: "Thorns (Sandsurge)"}, {value:"194", desc: "Thundercrack (Sandsurge)"}, {value:"179", desc: "Thylacine (Sandsurge)"}, {value:"171", desc: "Underbelly (Sandsurge)"}],
+{value:"347", desc: "Thorns (Sandsurge)"}, {value:"194", desc: "Thundercrack (Sandsurge)"}, {value:"179", desc: "Thylacine (Sandsurge)"}, {value:"171", desc: "Underbelly (Sandsurge)"},
+{value:"314", desc: "Warrior (Sandsurge)"}, {value:"468", desc: "Whiskers (Sandsurge)"}],
 
-"Auraboa": [{value:"314", desc: "Warrior (Sandsurge)"}, {value:"468", desc: "Whiskers (Sandsurge)"}, {value:"535", desc: "Angler (Auraboa)"}, {value:"214", desc: "Batty (Auraboa)"}, {value:"400", desc: "Blossom (Auraboa)"},
+"Auraboa": [{value:"535", desc: "Angler (Auraboa)"}, {value:"214", desc: "Batty (Auraboa)"}, {value:"400", desc: "Blossom (Auraboa)"},
 {value:"217", desc: "Branches (Auraboa)"}, {value:"229", desc: "Capsule (Auraboa)"}, {value:"402", desc: "Chitin (Auraboa)"}, {value:"230", desc: "Contour (Auraboa)"},
 {value:"231", desc: "Crackle (Auraboa)"}, {value:"215", desc: "Crest (Auraboa)"}, {value:"266", desc: "Crystalline (Auraboa)"}, {value:"536", desc: "Eclipse (Auraboa)"}, {value:"233", desc: "Firebreather (Auraboa)"}, {value:"232", desc: "Firefly (Auraboa)"}, {value:"216", desc: "Fishbone (Auraboa)"},
 {value:"414", desc: "Gecko (Auraboa)"}, {value:"308", desc: "Greenskeeper (Auraboa)"}, {value:"234", desc: "Keel (Auraboa)"}, {value:"235", desc: "Koi (Auraboa)"},
@@ -578,3 +579,9 @@ const colours = {"Maize": "#FFFDEA", "Cream": "#FFEFDC", "Antique": " #D8D6CD", 
     "Garnet": "#5B0F14", "Sanguine": "#2F0002", "Blood": "#451717", "Maroon": "#652127", "Berry": "#8B272C", "Red": "#C1272D", "Strawberry": "#DE3235", "Cerise": "#A22929",
     "Carmine": "#B13A3A", "Brick": "#9A534D", "Coral": "#CC6F6F", "Blush": "#FFA2A2", "Cottoncandy": "#EB7997", "Watermelon": "#DB518D",
     "Magenta": "#E934AA", "Fuchsia": "#EC0089", "Raspberry": "#8A0249", "Wine": "#4D0F28", "Mauve": "#9C4875", "Pink": "#E77FBF", "Bubblegum": "#EAA9FF", "Rose": "#FFD6F6", "Pearl": "#FBE9F8"};
+
+const eyes = {"Common": "0", "Uncommon": "1", "Unusual": "2", "Rare": "3", "Faceted": "4", "Multi-Gaze": "5", "Primal": "6", "Glowing": "7", "Dark Sclera": "8",
+      "Goat": "9", "Swirl": "10", "Innocent": "11", "Pastel": "12", "Bright": "13", "Button": "14", "Faded": "15", "Dark": "16"};
+
+const clan = {"1": "Earth", "2": "Plague", "3": "Wind", "4": "Water", "5": "Lightning", "6": "Ice",
+          "7": "Shadow", "8": "Light", "9": "Arcane", "10": "Nature", "11": "Fire"};
