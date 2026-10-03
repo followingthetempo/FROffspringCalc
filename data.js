@@ -583,5 +583,5 @@ const colours = {"Maize": "#FFFDEA", "Cream": "#FFEFDC", "Antique": " #D8D6CD", 
 const eyes = {"Common": "0", "Uncommon": "1", "Unusual": "2", "Rare": "3", "Faceted": "4", "Multi-Gaze": "5", "Primal": "6", "Glowing": "7", "Dark Sclera": "8",
       "Goat": "9", "Swirl": "10", "Innocent": "11", "Pastel": "12", "Bright": "13", "Button": "14", "Faded": "15", "Dark": "16"};
 
-const clan = {"1": "Earth", "2": "Plague", "3": "Wind", "4": "Water", "5": "Lightning", "6": "Ice",
-          "7": "Shadow", "8": "Light", "9": "Arcane", "10": "Nature", "11": "Fire"};
+const clan = {"Earth": "1", "Plague": "2", "Wind": "3", "Water": "4", "Lightning" : "5", "Ice": "6",
+          "Shadow": "7", "Light": "8", "Arcane": "9", "Nature": "10", "Fire": "11"};

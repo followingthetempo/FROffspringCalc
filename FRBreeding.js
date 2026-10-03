@@ -45,6 +45,7 @@ const fatherTertiary = document.getElementsByName('tertiary1')[0];
 const fatherTColour = document.getElementsByName('tertiarycol1')[0];
 const motherTertiary = document.getElementsByName('tertiary2')[0];
 const motherTColour = document.getElementsByName('tertiarycol2')[0];
+const dragonElement = document.getElementsByName('element')[0];
 const button = document.getElementById("results");
 
 
@@ -82,12 +83,14 @@ function printColours(colRange) {
 }
 
 //add variable for the selected elemental flight, when that option is added 
-function generateScryLink (breed, pGene, pColour, sGene, sColour, tGene, tColour, eyeType) {
+function generateScryLink (breed, pGene, pColour, sGene, sColour, tGene, tColour, eyeType, element) {
     var gender = Math.floor(Math.random()*2).toString();
         return "https://www1.flightrising.com/scrying/predict?breed=" + breed.value + "&gender=" + gender + "&age=0&bodygene="
-        + pGene.value + "&body=" + document.querySelector('.'+ pColour).value + "&winggene=" + sGene.value + "&wings=" + document.querySelector('.'+ sColour).value + "&tertgene=" + tGene.value + "&tert="+ document.querySelector('.'+ tColour).value + "&element=2&eyetype=" + eyes[eyeType];
+        + pGene.value + "&body=" + document.querySelector('.'+ pColour).value + "&winggene=" + sGene.value + "&wings=" + document.querySelector('.'+ sColour).value + "&tertgene=" + tGene.value + "&tert="+ document.querySelector('.'+ tColour).value + 
+        "&element=" + clan[element] + "&eyetype=" + eyes[eyeType];
 }
 function getPossibilities() {
+    //save the selected options
     var fatherSel = father.options[father.selectedIndex];
     var fatherPGene = fatherPrimary.options[fatherPrimary.selectedIndex];
     var fatherPCol = fatherPColour.options[fatherPColour.selectedIndex];
@@ -95,7 +98,6 @@ function getPossibilities() {
     var fatherSCol =  fatherSColour.options[fatherSColour.selectedIndex];
     var fatherTGene = fatherTertiary.options[fatherTertiary.selectedIndex];
     var fatherTCol = fatherTColour.options[fatherTColour.selectedIndex];
-
     var motherSel = mother.options[mother.selectedIndex];
     var motherPGene = motherPrimary.options[motherPrimary.selectedIndex];
     var motherPCol = motherPColour.options[motherPColour.selectedIndex];
@@ -103,6 +105,7 @@ function getPossibilities() {
     var motherSCol = motherSColour.options[motherSColour.selectedIndex];
     var motherTGene = motherTertiary.options[motherTertiary.selectedIndex];
     var motherTCol = motherTColour.options[motherTColour.selectedIndex];
+    var elementSel = dragonElement.options[dragonElement.selectedIndex]; 
     
     if ((Object.keys(moderns).includes(fatherSel.text) && !Object.keys(moderns).includes(motherSel.text)) || (!Object.keys(moderns).includes(fatherSel.text) && Object.keys(moderns).includes(motherSel.text)) || 
     ((fatherSel.text !== motherSel.text) && Object.keys(ancients).includes(fatherSel.text) && Object.keys(ancients).includes(motherSel.text))) { 
@@ -126,13 +129,13 @@ function getPossibilities() {
         var eyeOutcomes = [Object.keys(eyes)[Math.floor(Math.random()*17).toString()], Object.keys(eyes)[Math.floor(Math.random()*17).toString()], Object.keys(eyes)[Math.floor(Math.random()*17).toString()], Object.keys(eyes)[Math.floor(Math.random()*17).toString()]]; 
         
         var offspring1 = "<p>" + breedOutcomes[0].text +"<p>"+ pGeneOutcomes[0].text +", "+ pColOutcomes[0] +"</p>"+ sGeneOutcomes[0].text + ", " + sColOutcomes[0] +"</p>"+ tGeneOutcomes[0].text +", "+ tColOutcomes[0] + "</p><p>" + eyeOutcomes[0] +"</p>";
-        var scry1 = "<a href = \"" + generateScryLink(breedOutcomes[0], pGeneOutcomes[0], pColOutcomes[0], sGeneOutcomes[0], sColOutcomes[0], tGeneOutcomes[0], tColOutcomes[0], eyeOutcomes[0]) + "\" class =\"scryButton\">Click to scry!</a>";
+        var scry1 = "<a href = \"" + generateScryLink(breedOutcomes[0], pGeneOutcomes[0], pColOutcomes[0], sGeneOutcomes[0], sColOutcomes[0], tGeneOutcomes[0], tColOutcomes[0], eyeOutcomes[0], elementSel.text) + "\" class =\"scryButton\">Click to scry!</a>";
         var offspring2 = "<p>" + breedOutcomes[1].text +"<p>"+ pGeneOutcomes[1].text +", "+ pColOutcomes[1] +"</p>"+ sGeneOutcomes[1].text + ", " + sColOutcomes[1] +"</p>"+ tGeneOutcomes[1].text +", "+ tColOutcomes[1] + "</p><p>" + eyeOutcomes[1] +"</p>";
-        var scry2 = "<a href = \"" + generateScryLink(breedOutcomes[1], pGeneOutcomes[1], pColOutcomes[1], sGeneOutcomes[1], sColOutcomes[1], tGeneOutcomes[1], tColOutcomes[1], eyeOutcomes[1]) + "\" class =\"scryButton\">Click to scry!</a>";
+        var scry2 = "<a href = \"" + generateScryLink(breedOutcomes[1], pGeneOutcomes[1], pColOutcomes[1], sGeneOutcomes[1], sColOutcomes[1], tGeneOutcomes[1], tColOutcomes[1], eyeOutcomes[1], elementSel.text) + "\" class =\"scryButton\">Click to scry!</a>";
         var offspring3 = "<p>" + breedOutcomes[2].text +"<p>"+ pGeneOutcomes[2].text +", "+ pColOutcomes[2] +"</p>"+ sGeneOutcomes[2].text + ", " + sColOutcomes[2] +"</p>"+ tGeneOutcomes[2].text +", "+ tColOutcomes[2] + "</p><p>" + eyeOutcomes[2] +"</p>";
-        var scry3 = "<a href = \"" + generateScryLink(breedOutcomes[2], pGeneOutcomes[2], pColOutcomes[2], sGeneOutcomes[2], sColOutcomes[2], tGeneOutcomes[2], tColOutcomes[2], eyeOutcomes[2]) + "\" class =\"scryButton\">Click to scry!</a>";
+        var scry3 = "<a href = \"" + generateScryLink(breedOutcomes[2], pGeneOutcomes[2], pColOutcomes[2], sGeneOutcomes[2], sColOutcomes[2], tGeneOutcomes[2], tColOutcomes[2], eyeOutcomes[2], elementSel.text) + "\" class =\"scryButton\">Click to scry!</a>";
         var offspring4 = "<p>" + breedOutcomes[3].text +"<p>"+ pGeneOutcomes[3].text +", "+ pColOutcomes[3] +"</p>"+ sGeneOutcomes[3].text + ", " + sColOutcomes[3] +"</p>"+ tGeneOutcomes[3].text +", "+ tColOutcomes[3] + "</p><p>" + eyeOutcomes[3] +"</p>";
-        var scry4 = "<a href = \"" + generateScryLink(breedOutcomes[3], pGeneOutcomes[3], pColOutcomes[3], sGeneOutcomes[3], sColOutcomes[3], tGeneOutcomes[3], tColOutcomes[3], eyeOutcomes[3]) + "\" class =\"scryButton\">Click to scry!</a>";
+        var scry4 = "<a href = \"" + generateScryLink(breedOutcomes[3], pGeneOutcomes[3], pColOutcomes[3], sGeneOutcomes[3], sColOutcomes[3], tGeneOutcomes[3], tColOutcomes[3], eyeOutcomes[3], elementSel.text) + "\" class =\"scryButton\">Click to scry!</a>";
 
         var probability = "<div class = \"show-chances\"><h2>Probabilities</h2><table><tr><td>" + rarity(fatherSel,motherSel)+
             "</tr></td><tr><td>"+rarity(fatherPGene,motherPGene)+"</tr></td><tr><td>"+ printColours(primaryRange)+
