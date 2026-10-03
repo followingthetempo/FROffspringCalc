@@ -11,8 +11,12 @@ h1 {
     font-size:35px;
     background-color:#7fbdf7;
     padding-bottom:5px;
-    margin-bottom:15px;
+    margin-bottom:5px;
     
+}
+
+h2 {
+    margin-bottom: 5px;
 }
 
 select {
@@ -23,8 +27,20 @@ select {
     margin: 0px;
 }
 
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
 th, td {
-    padding: 20px; 
+    margin-top: 0px;
+    padding: 5px; 
+    
 }
 .parent {
     display: flex;
@@ -36,4 +52,18 @@ th, td {
 
 .offspringbox { 
     flex: 1;
+}
+
+.show-chances { 
+    border-style: outset;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 450;
+}
+
+.show-offspring { 
+    border-style: outset;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 450;
 }

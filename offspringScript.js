@@ -262,7 +262,7 @@ function colourRange(x, y) {
     let maxVal = Math.max(fatherCol,motherCol);
 
     if (minVal == maxVal) {
-        return col1;
+        return [col1];
     }
     else {
         let range1 = Object.keys(colours).slice(minVal,maxVal+1);
@@ -280,3 +280,4 @@ function colourRange(x, y) {
     }
 
 }
+

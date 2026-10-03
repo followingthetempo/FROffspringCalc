@@ -134,13 +134,13 @@ function getPossibilities() {
         var offspring4 = "<p>" + breedOutcomes[3].text +"<p>"+ pGeneOutcomes[3].text +", "+ pColOutcomes[3] +"</p>"+ sGeneOutcomes[3].text + ", " + sColOutcomes[3] +"</p>"+ tGeneOutcomes[3].text +", "+ tColOutcomes[3] + "</p><p>" + eyeOutcomes[3] +"</p>";
         var scry4 = "<a href = \"" + generateScryLink(breedOutcomes[3], pGeneOutcomes[3], pColOutcomes[3], sGeneOutcomes[3], sColOutcomes[3], tGeneOutcomes[3], tColOutcomes[3], eyeOutcomes[3]) + "\" class =\"scryButton\">Click to scry!</a>";
 
-        var probability = "<h2>Probabilities</h2>" + rarity(fatherSel,motherSel)+
-        "<p>"+rarity(fatherPGene,motherPGene)+"</p><p>"+ printColours(primaryRange)+
-        "</p><p>"+rarity(fatherSGene,motherSGene)+"</p><p>"+ printColours(secondaryRange)+
-        "</p><p>"+rarity(fatherTGene,motherTGene)+"</p><p>"+ printColours(tertiaryRange) + "</p>";
+        var probability = "<div class = \"show-chances\"><h2>Probabilities</h2><table><tr><td>" + rarity(fatherSel,motherSel)+
+            "</tr></td><tr><td>"+rarity(fatherPGene,motherPGene)+"</tr></td><tr><td>"+ printColours(primaryRange)+
+            "</tr></td><tr><td>"+rarity(fatherSGene,motherSGene)+"</tr></td><tr><td>"+ printColours(secondaryRange)+
+            "</tr></td><tr><td>"+rarity(fatherTGene,motherTGene)+"</tr></td><tr><td>"+ printColours(tertiaryRange) + "</tr></td></div>";;
 
-        var offspring = "<h2>Possible Offspring</h2><table><tr><td>"+offspring1+"<p>"+scry1+ "</td><td>" + offspring2 +"<p>" + scry2 +"</td></tr><tr><td>" + offspring3 + "<p>" + scry3 + "</td><td>" + offspring4 + "<p>" + scry4;
-        +"</td></tr></table>"; 
+        var offspring = "<div class = \"show-offspring\"><h2>Possible Offspring</h2><table><tr><td>"+offspring1+"<p>"+scry1+ "</td><td>" + offspring2 +"<p>" + scry2 +"</td></tr><tr><td>" + offspring3 + "<p>" + scry3 + "</td><td>" + offspring4 + "<p>" + scry4;
+            +"</td></tr></table></d>"; 
 
         document.getElementById("probabilities").innerHTML = probability
         document.getElementById("offspring").innerHTML = offspring;
