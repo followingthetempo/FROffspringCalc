@@ -13,26 +13,27 @@ const rarities ={"plentiful": ["Fae","Guardian","Mirror","Tundra", "Basic"],
   "uncommon": ["Bogsneak","Obelisk","Fathom","Skydancer", 
          "Bar", "Boa", "Cherub", "Chorus", "Cinder", "Flaunt", "Giraffe", "Jaguar", "Jupiter", "Lionfish", "Mosaic", "Ragged", "Ribbon", "Ripple", "Sphinxmoth", "Vipera", "Mochlus", "Rattlesnake", "Chevron", "Criculaworm", "Faire", "Ink", "Strike", "Caiman", "Splatter", "Wolf", "Bright", "Shell", "Patina", 
          "Blaze", "Breakup", "Choir", "Current", "Daub", "Eel", "Flair", "Hawkmoth", "Hex", "Hypnotic", "Noxtide", "Rosette", "Saddle", "Saturn", "Seraph", "Tear", "Diamondback", "Riopa", "Arrow", "Carousel", "Dye", "Silkspot", "Coil", "Croc", "Drip", "Pack", "Vivid", "Web", "Oxidize", 
-         "Crackle", "Gecko", "Gembond", "Ghost", "Lace", "Okapi", "Ringlets", "Runes", "Smoke", "Sparkle", "Spines", "Thorns", "Fishbone", "Stinger", "Whiskers", "Crest", "Paradise", "Willow", "Antlers", "Jellyfish", "Rift", "Sunsail", "Wintercoat", "Beard", "Plating", "Pufferfish", "Agate", "Rooster"],
+         "Crackle", "Gecko", "Gembond", "Ghost", "Lace", "Okapi", "Ringlets", "Runes", "Smoke", "Sparkle", "Spines", "Thorns", "Fishbone", "Stinger", "Whiskers", "Crest", "Paradise", "Willow", "Antlers", "Jellyfish", "Rift", "Sunsail", "Wintercoat", "Beard", "Plating", "Pufferfish", "Agate", "Rooster",
+      "Begonia", "Confetti", "Celebration", "Rex", "Quartz"],
 
   "limited": ["Nocturne","Imperial", 
         "Boulder", "Chrysocolla", "Fern", "Ground", "Love", "Orb", "Pinstripe", "Poison", "Python", "Sailfish", "Skink", "Slime", "Soil", "Stitched", "Tide", "Diamond", "Candy", "Candycane", "Arc", "Display", "Papillon", "Phantom", "Octopus", "Crosshatch", 
         "Affection", "Fissure", "Foam", "Loam", "Myrid", "Paisley", "Patchwork", "Sludge", "Spinner", "Toxin", "Trail", "Weaver", "Spade", "Icing", "Marlin", "Malachite", "Sugarplum", "Loop", "Parade", "Swallowtail", "Spirit", "Rings", "Hatch", 
         "Capsule", "Firebreather", "Firefly", "Flecks", "Keel", "Magpie", "Polkadot", "Scales", "Smirch", "Veined", "Blossom", "Carnivore", "Flameforger", "Mucous", "Brightshine", "Gliders", "Squiggle", "Coral", "Flames", "Topscale",
         "Polypore", "Riot", "Rockbreaker", "Skeletal", "Thundercrack", "Angler", "Crystalline", "Flutter", "Branches"," Mandibles", "Mistral", "Porcupine", "Starfall", "Trickmurk", "Batty", "Greenskeeper", "Skuttle", "Warrior", "Wavecrest", "Dewlap", "Pachy",
-        "Eclosion", "Nudibranch", "Scorpion", "Weathered", "Shark", "Beetle", "Moss", "Sweet", "Tusked", "Yarn", "Hornet", "Featherbeard", "Porcelain", "Webmane"],
+        "Eclosion", "Nudibranch", "Scorpion", "Weathered", "Shark", "Beetle", "Moss", "Sweet", "Tusked", "Yarn", "Hornet", "Featherbeard", "Porcelain", "Webmane", "Flourish", "Hoard", "Maw", "Flick"],
 
   "rare": ["Coatl","Wildclaw",
        "Crystal", "Harlequin", "Iridescent", "Metallic", "Petals", "Petrified", "Pharaoh", "Starmap", "Wasp", "Wicker", "Twinkle", "Throne", "Dimension", "Glow", "Glass",
        "Alloy", "Bee", "Butterfly", "Constellation", "Facet", "Jester", "Lode", "Sarcophagus", "Shimmer", "Flicker", "Woven", "Crown", "Chalice", "Lumen", "Warp", 
        "Circuit", "Eclipse", "Filigree", "Glimmer", "Glowtail", "Koi", "Opal", "Soap", "Stained", "Wish", "Augment", "Fans", "Frills", "Jewels", "Medusa", "Ornaments", "Spores", "Diaphanous", "Monarch", "Sailfin", "Tentacles", "Space",
-      "Plumage", "Wraith", "Glitch", "Deco", "Mist", "Spectre", "Gnarlhorns", "Veil", "Harp", "Pinions", "Remora", "Mop", "Belfry", "Candlelight", "Overgrow"]};
+      "Plumage", "Wraith", "Glitch", "Deco", "Mist", "Spectre", "Gnarlhorns", "Veil", "Harp", "Pinions", "Remora", "Mop", "Belfry", "Candlelight", "Overgrow", "Kyathos", "Kylix", "Chimera", "Kelpie", "Vitrail"]};
 
 
 const moderns = {"Fae": "1", "Guardian": "2", "Mirror": "3", "Pearlcatcher": "4", "Ridgeback": "5", "Tundra": "6", "Spiral": "7", "Imperial": "8", "Snapper": "9", "Wildclaw": "10", "Nocturne": "11", "Coatl": "12", "Skydancer": "13", 
         "Bogsneak": "14", "Obelisk": "15", "Fathom": "16"}
 //ancient breeds 
-const ancients = {"Gaoler": "17","Banescale": "18","Veilspun": "19","Aberration": "20","Undertide": "21","Aether": "22","Sandsurge": "23","Auraboa": "24","Dusthide": "25","Everlux": "26","Cirrus": "27","Thorntail": "29","Vigil": "28"};
+const ancients = {"Gaoler": "17","Banescale": "18","Veilspun": "19","Aberration": "20","Undertide": "21","Aether": "22","Sandsurge": "23","Auraboa": "24","Dusthide": "25","Everlux": "26","Cirrus": "27","Thorntail": "29","Vigil": "28", "Chorus": "30"};
 
 //primary genes - sorted by modern and each ancient breed for easier insertions 
 const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basic"},{value: "232", desc:"Boa"},{value: "110", desc:"Boulder"}, 
@@ -52,7 +53,7 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 "Gaoler": [{value: "34", desc:"Bar (Gaoler)"},{value: "171", desc:"Boa (Gaoler)"},{value: "289", desc:"Boulder (Gaoler)"},
 {value: "391", desc:"Caterpillar (Gaoler)"},{value: "378", desc:"Checkers (Gaoler)"},{value: "216", desc:"Cinder (Gaoler)"},
 {value: "77", desc:"Clown (Gaoler)"},{value: "37", desc:"Crystal (Gaoler)"},{value: "86", desc:"Fade (Gaoler)"},{value: "30", desc:"Falcon (Gaoler)"},
-{value: "111", desc:"Flaunt (Gaoler)"},{value: "27", desc:"Giraffe (Gaoler)"},{value: "379", desc:"Harlequin (Gaoler)"},{value: "33", desc:"Jaguar (Gaoler)"},{value: "73", desc:"Laced (Gaoler)"},
+{value: "111", desc:"Flaunt (Gaoler)"},{value: "27", desc:"Giraffe (Gaoler)"},{value: "379", desc:"Harlequin (Gaoler)"},{value: "33", desc:"Jaguar (Gaoler)"},  {value: "564", desc: "Jupiter (Gaoler)"}, {value: "73", desc:"Laced (Gaoler)"},
 {value: "173", desc:"Leopard (Gaoler)"},{value: "380", desc:"Lionfish (Gaoler)"},{value: "38", desc:"Mosaic (Gaoler)"},{value: "286", desc:"Orb (Gaoler)"},
 {value: "39", desc:"Phantom (Gaoler)"},{value: "31", desc:"Piebald (Gaoler)"},{value: "32", desc:"Pinstripe (Gaoler)"},{value: "174", desc:"Poison (Gaoler)"},{value: "175", desc:"Ribbon (Gaoler)"},
 {value: "78", desc:"Ripple (Gaoler)"},{value: "498", desc:"Sailfish (Gaoler)"},{value: "176", desc:"Savanna (Gaoler)"},{value: "29", desc:"Shaggy (Gaoler)"},{value: "177", desc:"Skink (Gaoler)"},
@@ -65,7 +66,7 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 {value: "388", desc:"Caterpillar (Banescale)"},{value: "454", desc:"Checkers (Banescale)"},{value: "43", desc:"Cherub (Banescale)"},
 {value: "54", desc:"Chevron (Banescale)"},{value: "215", desc:"Cinder (Banescale)"},{value: "75", desc:"Clown (Banescale)"},{value: "182", desc:"Crystal (Banescale)"},
 {value: "85", desc:"Fade (Banescale)"},{value: "80", desc:"Falcon (Banescale)"},{value: "137", desc:"Fern (Banescale)"},{value: "81", desc:"Giraffe (Banescale)"},
-{value: "44", desc:"Jaguar (Banescale)"},{value: "48", desc:"Laced (Banescale)"},{value: "109", desc:"Leopard (Banescale)"},{value: "47", desc:"Marble (Banescale)"},
+{value: "44", desc:"Jaguar (Banescale)"}, {value: "563", desc: "Jupiter (Banescale)"}, {value: "48", desc:"Laced (Banescale)"},{value: "109", desc:"Leopard (Banescale)"},{value: "47", desc:"Marble (Banescale)"},
 {value: "49", desc:"Metallic (Banescale)"},{value: "342", desc:"Mosaic (Banescale)"},{value: "287", desc:"Orb (Banescale)"},
 {value: "51", desc:"Petals (Banescale)"},{value: "185", desc:"Pharaoh (Banescale)"},{value: "45", desc:"Pinstripe (Banescale)"},{value: "53", desc:"Poison (Banescale)"},
 {value: "56", desc:"Ragged (Banescale)"},{value: "183", desc:"Ribbon (Banescale)"},{value: "79", desc:"Ripple (Banescale)"},{value: "50", desc:"Savanna (Banescale)"},
@@ -92,7 +93,7 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 {value: "214", desc:"Cinder (Aberration)"},{value: "222", desc:"Clown (Aberration)"},{value: "91", desc:"Crystal (Aberration)"},
 {value: "93", desc:"Diamond (Aberration)"},{value: "90", desc:"Fade (Aberration)"},{value: "92", desc:"Falcon (Aberration)"},
 {value: "223", desc:"Fern (Aberration)"},{value: "112", desc:"Flaunt (Aberration)"},{value: "94", desc:"Giraffe (Aberration)"},
-{value: "97", desc:"Ground (Aberration)"},{value: "224", desc:"Harlequin (Aberration)"},{value: "99", desc:"Jaguar (Aberration)"},
+{value: "97", desc:"Ground (Aberration)"},{value: "224", desc:"Harlequin (Aberration)"},{value: "99", desc:"Jaguar (Aberration)"}, {value: "566", desc: "Jupiter (Aberration)"},
 {value: "225", desc:"Leopard (Aberration)"},{value: "100", desc:"Lionfish (Aberration)"},{value: "341", desc:"Mosaic (Aberration)"},
 {value: "102", desc:"Orb (Aberration)"},{value: "101", desc:"Pharaoh (Aberration)"},{value: "226", desc:"Pinstripe (Aberration)"},
 {value: "227", desc:"Poison (Aberration)"},{value: "105", desc:"Ribbon (Aberration)"},{value: "228", desc:"Ripple (Aberration)"},
@@ -104,7 +105,7 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 
 "Undertide": [{value: "117", desc:"Bar (Undertide)"},{value: "128", desc:"Boa (Undertide)"},{value: "135", desc:"Boulder (Undertide)"},{value: "390", desc:"Caterpillar (Undertide)"},
 {value: "127", desc:"Checkers (Undertide)"},{value: "119", desc:"Cherub (Undertide)"},{value: "264", desc:"Chrysocolla (Undertide)"},
-{value: "218", desc:"Cinder (Undertide)"},{value: "265", desc:"Clown (Undertide)"},{value: "118", desc:"Crystal (Undertide)"},
+{value: "218", desc:"Cinder (Undertide)"},{value: "265", desc:"Clown (Undertide)"}, {value: "613", desc: "Criculaworm (Undertide)"}, {value: "118", desc:"Crystal (Undertide)"},
 {value: "115", desc:"Fade (Undertide)"},{value: "122", desc:"Falcon (Undertide)"},{value: "266", desc:"Fern (Undertide)"},
 {value: "267", desc:"Flaunt (Undertide)"},{value: "123", desc:"Giraffe (Undertide)"},{value: "268", desc:"Ground (Undertide)"},
 {value: "280", desc:"Harlequin (Undertide)"},{value: "269", desc:"Jaguar (Undertide)"},{value: "270", desc:"Jupiter (Undertide)"},
@@ -119,8 +120,8 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 
 "Aether": [{value: "150", desc:"Bar (Aether)"},{value: "234", desc:"Boa (Aether)"},{value: "151", desc:"Boulder (Aether)"},
 {value: "167", desc:"Candy (Aether)"},{value: "387", desc:"Caterpillar (Aether)"},{value: "319", desc:"Checkers (Aether)"},
-{value: "320", desc:"Chrysocolla (Aether)"},{value: "163", desc:"Cinder (Aether)"},{value: "169", desc:"Clown (Aether)"},
-{value: "321", desc:"Crystal (Aether)"},{value: "148", desc:"Fade (Aether)"},{value: "322", desc:"Falcon (Aether)"},
+{value: "320", desc:"Chrysocolla (Aether)"},{value: "163", desc:"Cinder (Aether)"},{value: "169", desc:"Clown (Aether)"}, 
+{value: "610", desc: "Criculaworm (Aether)"}, {value: "321", desc:"Crystal (Aether)"},{value: "148", desc:"Fade (Aether)"},{value: "322", desc:"Falcon (Aether)"},
 {value: "323", desc:"Fern (Aether)"},{value: "149", desc:"Flaunt (Aether)"},{value: "324", desc:"Giraffe (Aether)"},
 {value: "325", desc:"Ground (Aether)"},{value: "326", desc:"Harlequin (Aether)"},{value: "152", desc:"Jaguar (Aether)"},
 {value: "153", desc:"Jupiter (Aether)"},{value: "156", desc:"Laced (Aether)"},{value: "158", desc:"Lionfish (Aether)"},
@@ -136,9 +137,9 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 "Sandsurge": [{value: "194", desc:"Arapaima (Sandsurge)"},{value: "444", desc:"Bar (Sandsurge)"},{value: "189", desc:"Boa (Sandsurge)"},
 {value: "188", desc:"Boulder (Sandsurge)"},{value: "392", desc:"Caterpillar (Sandsurge)"},{value: "440", desc:"Checkers (Sandsurge)"},
 {value: "190", desc:"Cherub (Sandsurge)"},{value: "195", desc:"Chrysocolla (Sandsurge)"},{value: "217", desc:"Cinder (Sandsurge)"},
-{value: "196", desc:"Clown (Sandsurge)"},{value: "399", desc:"Crystal (Sandsurge)"},{value: "191", desc:"Fade (Sandsurge)"},
+{value: "196", desc:"Clown (Sandsurge)"}, {value: "612", desc: "Criculaworm (Sandsurge)"}, {value: "399", desc:"Crystal (Sandsurge)"},{value: "191", desc:"Fade (Sandsurge)"},
 {value: "448", desc:"Falcon (Sandsurge)"},{value: "394", desc:"Fern (Sandsurge)"},{value: "193", desc:"Flaunt (Sandsurge)"},
-{value: "186", desc:"Ground (Sandsurge)"},{value: "192", desc:"Harlequin (Sandsurge)"},{value: "198", desc:"Jaguar (Sandsurge)"},{value: "197", desc:"Jupiter (Sandsurge)"},
+{value: "186", desc:"Ground (Sandsurge)"},{value: "192", desc:"Harlequin (Sandsurge)"},{value: "198", desc:"Jaguar (Sandsurge)"}, {value: "197", desc:"Jupiter (Sandsurge)"},
 {value: "199", desc:"Lionfish (Sandsurge)"},{value: "200", desc:"Mosaic (Sandsurge)"},{value: "284", desc:"Orb (Sandsurge)"},
 {value: "446", desc:"Petals (Sandsurge)"},{value: "449", desc:"Petrified (Sandsurge)"},{value: "201", desc:"Piebald (Sandsurge)"},
 {value: "202", desc:"Pinstripe (Sandsurge)"},{value: "203", desc:"Python (Sandsurge)"},{value: "445", desc:"Ragged (Sandsurge)"},
@@ -149,10 +150,10 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 {value: "397", desc:"Vipera (Sandsurge)"},{value: "207", desc:"Wasp (Sandsurge)"},{value: "187", desc:"Wrought (Sandsurge)"}],
 
 "Auraboa": [{value: "238", desc:"Bar (Auraboa)"},{value: "239", desc:"Boa (Auraboa)"},{value: "240", desc:"Boulder (Auraboa)"},
-{value: "241", desc:"Caterpillar (Auraboa)"},{value: "455", desc:"Checkers (Auraboa)"},{value: "504", desc:"Cherub (Auraboa)"},
+{value: "241", desc:"Caterpillar (Auraboa)"},{value: "455", desc:"Checkers (Auraboa)"},{value: "504", desc:"Cherub (Auraboa)"}, {value: "611", desc: "Criculaworm (Auraboa)"},
 {value: "242", desc:"Fade (Auraboa)"},{value: "243", desc:"Falcon (Auraboa)"},{value: "244", desc:"Fern (Auraboa)"},{value: "245", desc:"Flaunt (Auraboa)"},
-{value: "246", desc:"Giraffe (Auraboa)"},{value: "247", desc:"Harlequin (Auraboa)"},{value: "248", desc:"Jaguar (Auraboa)"},{value: "249", desc:"Laced (Auraboa)"},
-{value: "279", desc:"Love (Auraboa)"},{value: "250", desc:"Metallic (Auraboa)"},{value: "251", desc:"Mochlus (Auraboa)"},
+{value: "246", desc:"Giraffe (Auraboa)"},{value: "247", desc:"Harlequin (Auraboa)"},{value: "248", desc:"Jaguar (Auraboa)"}, {value: "565", desc: "Jupiter (Auraboa)"},
+{value: "249", desc:"Laced (Auraboa)"}, {value: "279", desc:"Love (Auraboa)"},{value: "250", desc:"Metallic (Auraboa)"},{value: "251", desc:"Mochlus (Auraboa)"},
 {value: "252", desc:"Mosaic (Auraboa)"},{value: "253", desc:"Orb (Auraboa)"},{value: "502", desc:"Petrified (Auraboa)"},{value: "254", desc:"Piebald (Auraboa)"},
 {value: "255", desc:"Python (Auraboa)"},{value: "506", desc:"Ragged (Auraboa)"},{value: "256", desc:"Rattlesnake (Auraboa)"},
 {value: "257", desc:"Ripple (Auraboa)"},{value: "495", desc:"Sailfish (Auraboa)"},{value: "503", desc:"Slime (Auraboa)"},
@@ -220,7 +221,21 @@ const primaryGenes ={"Modern": [{value: "6", desc:"Bar"},{value: "0", desc:"Basi
 {value: "490", desc:"Radio (Thorntail)"},{value: "479", desc:"Ragged (Thorntail)"},{value: "480", desc:"Rattlesnake (Thorntail)"},
 {value: "481", desc:"Ripple (Thorntail)"},{value: "482", desc:"Sailfish (Thorntail)"},{value: "483", desc:"Skink (Thorntail)"},
 {value: "484", desc:"Soil (Thorntail)"},{value: "491", desc:"Splatter (Thorntail)"},{value: "485", desc:"Tapir (Thorntail)"},{value: "486", desc:"Tide (Thorntail)"},
-{value: "487", desc:"Varnish (Thorntail)"},{value: "488", desc:"Vipera (Thorntail)"}]};
+{value: "487", desc:"Varnish (Thorntail)"},{value: "488", desc:"Vipera (Thorntail)"}],
+
+"Chorus": [{value: "577", desc: "Arc (Chorus)"}, {value:  "567", desc: "Begonia (Chorus)"}, {value: "572", desc: "Boa (Chorus)"}, {value: "595", desc: "Boulder (Chorus)"}, 
+{value: "587", desc: "Candycane (Chorus)"}, {value: "570", desc: "Caterpillar (Chorus)"}, {value: "571", desc: "Checkers (Chorus)"}, {value: "588", desc: "Cherub (Chorus)"},
+{value: "573", desc: "Chrysocolla (Chorus)"}, {value: "574", desc: "Cinder (Chorus)"}, {value: "568", desc: "Confetti (Chorus)"}, {value: "578", desc: "Crosshatch (Chorus)"},
+{value: "590", desc: "Crystal (Chorus)"}, {value: "576", desc: "Dimension (Chorus)"}, {value: "589", desc: "Flaunt (Chorus)"}, {value: "607", desc: "Flourish (Chorus)"},
+{value: "591", desc: "Ground (Chorus)"}, {value: "592", desc: "Harlequin (Chorus)"}, {value: "569", desc: "Kyathos (Chorus)"}, {value: "597", desc: "Laced (Chorus)"}, 
+{value: "593", desc: "Marble (Chorus)"}, {value: "608", desc: "Metallic (Chorus)"}, {value: "586", desc: "Mosaic (Chorus)"}, {value: "581", desc: "Orb (Chorus)"}, 
+{value: "594", desc: "Papillon (Chorus)"}, {value: "596", desc: "Petals (Chorus)"}, {value: "582", desc: "Petrified (Chorus)"}, {value: "582", desc: "Petrified (Chorus)"},
+{value: "598", desc: "Piebald (Chorus)"}, {value: "580", desc: "Ragged (Chorus)"}, {value: "599", desc: "Rattlesnake (Chorus)"}, {value: "583", desc: "Sailfish (Chorus)"},
+{value: "600", desc: "Skink (Chorus)"}, {value: "601", desc: "Soil (Chorus)"}, {value: "602", desc: "Sphinxmoth (Chorus)"}, {value: "584", desc: "Spool (Chorus)"},
+{value: "575", desc: "Strike (Chorus)"}, {value: "603", desc: "Swirl (Chorus)"}, {value: "606", desc: "Tapir (Chorus)"}, {value: "604", desc: "Tide (Chorus)"},
+{value: "605", desc: "Varnish (Chorus)"}, {value: "585", desc: "Wasp (Chorus)"}, {value: "579", desc: "Wrought (Chorus)"}
+]};                                                                                 
+
 
 //secondary genes - sorted by modern and each ancient breed for easier insertions
 const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17", desc:"Alloy"},{value: "0", desc:"Basic"},{value: "20", desc:"Bee"},{value: "213", desc:"Blaze"},{value: "42", desc:"Blend"},
@@ -242,7 +257,7 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "396", desc:"Hypnotic (Gaoler)"},{value: "380", desc:"Jester (Gaoler)"},{value: "382", desc:"Lacquer (Gaoler)"},{value: "392", desc:"Larvae (Gaoler)"},
 {value: "406", desc:"Loam (Gaoler)"},{value: "178", desc:"Marbled (Gaoler)"},{value: "498", desc:"Marlin (Gaoler)"},{value: "290", desc:"Myrid (Gaoler)"},
 {value: "381", desc:"Noxtide (Gaoler)"},{value: "31", desc:"Paint (Gaoler)"},{value: "179", desc:"Patchwork (Gaoler)"},{value: "30", desc:"Peregrine (Gaoler)"},
-{value: "33", desc:"Rosette (Gaoler)"},{value: "171", desc:"Saddle (Gaoler)"},{value: "175", desc:"Safari (Gaoler)"},{value: "177", desc:"Sludge (Gaoler)"},
+{value: "33", desc:"Rosette (Gaoler)"},{value: "171", desc:"Saddle (Gaoler)"},{value: "175", desc:"Safari (Gaoler)"}, {value: "564", desc: "Saturn (Gaoler)"}, {value: "177", desc:"Sludge (Gaoler)"},
 {value: "176", desc:"Spinner (Gaoler)"},{value: "39", desc:"Spirit (Gaoler)"},{value: "29", desc:"Streak (Gaoler)"},{value: "35", desc:"Striation (Gaoler)"},
 {value: "36", desc:"Stripes (Gaoler)"},{value: "173", desc:"Toxin (Gaoler)"},{value: "32", desc:"Trail (Gaoler)"},{value: "286", desc:"Weaver (Gaoler)"}],
 
@@ -253,7 +268,7 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "521", desc:"Hawkmoth (Banescale)"},{value: "81", desc:"Hex (Banescale)"},{value: "395", desc:"Hypnotic (Banescale)"},{value: "452", desc:"Lacquer (Banescale)"},
 {value: "388", desc:"Larvae (Banescale)"},{value: "404", desc:"Loam (Banescale)"},{value: "47", desc:"Mottle (Banescale)"},{value: "289", desc:"Myrid (Banescale)"},
 {value: "137", desc:"Paisley (Banescale)"},{value: "80", desc:"Peregrine (Banescale)"},{value: "44", desc:"Rosette (Banescale)"},{value: "235", desc:"Saddle (Banescale)"},
-{value: "50", desc:"Safari (Banescale)"},{value: "185", desc:"Sarcophagus (Banescale)"},{value: "43", desc:"Seraph (Banescale)"},{value: "52", desc:"Spinner (Banescale)"},
+{value: "50", desc:"Safari (Banescale)"},{value: "185", desc:"Sarcophagus (Banescale)"}, {value: "563", desc: "Saturn (Banescale)"}, {value: "43", desc:"Seraph (Banescale)"},{value: "52", desc:"Spinner (Banescale)"},
 {value: "74", desc:"Striation (Banescale)"},{value: "46", desc:"Stripes (Banescale)"},{value: "55", desc:"Sugarplum (Banescale)"},{value: "56", desc:"Tear (Banescale)"},
 {value: "53", desc:"Toxin (Banescale)"},{value: "45", desc:"Trail (Banescale)"},{value: "285", desc:"Weaver (Banescale)"}],
 
@@ -277,7 +292,7 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "451", desc:"Lacquer (Aberration)"},{value: "386", desc:"Larvae (Aberration)"},{value: "401", desc:"Loam (Aberration)"},{value: "103", desc:"Marbled (Aberration)"},
 {value: "493", desc:"Marlin (Aberration)"},{value: "226", desc:"Myrid (Aberration)"},{value: "100", desc:"Noxtide (Aberration)"},{value: "227", desc:"Paisley (Aberration)"},
 {value: "107", desc:"Patchwork (Aberration)"},{value: "92", desc:"Peregrine (Aberration)"},{value: "99", desc:"Rosette (Aberration)"},{value: "233", desc:"Saddle (Aberration)"},
-{value: "104", desc:"Safari (Aberration)"},{value: "101", desc:"Sarcophagus (Aberration)"},{value: "228", desc:"Seraph (Aberration)"},{value: "106", desc:"Sludge (Aberration)"},
+{value: "104", desc:"Safari (Aberration)"},{value: "101", desc:"Sarcophagus (Aberration)"}, {value: "565", desc: "Saturn (Aberration)"}, {value: "228", desc:"Seraph (Aberration)"},{value: "106", desc:"Sludge (Aberration)"},
 {value: "93", desc:"Spade (Aberration)"},{value: "229", desc:"Spinner (Aberration)"},{value: "95", desc:"Striation (Aberration)"},{value: "230", desc:"Toxin (Aberration)"},
 {value: "231", desc:"Trail (Aberration)"},{value: "102", desc:"Weaver (Aberration)"}],
 
@@ -291,7 +306,7 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "116", desc:"Pack (Undertide)"},{value: "272", desc:"Paint (Undertide)"},{value: "266", desc:"Paisley (Undertide)"},{value: "280", desc:"Patchwork (Undertide)"},
 {value: "122", desc:"Peregrine (Undertide)"},{value: "133", desc:"Rings (Undertide)"},{value: "269", desc:"Rosette (Undertide)"},{value: "128", desc:"Saddle (Undertide)"},
 {value: "129", desc:"Safari (Undertide)"},{value: "120", desc:"Sarcophagus (Undertide)"},{value: "270", desc:"Saturn (Undertide)"},{value: "119", desc:"Seraph (Undertide)"},
-{value: "277", desc:"Spire (Undertide)"},{value: "274", desc:"Striation (Undertide)"},{value: "275", desc:"Stripes (Undertide)"},{value: "131", desc:"Toxin (Undertide)"},
+{value: "614", desc: "Silkspot (Undertide)"}, {value: "277", desc:"Spire (Undertide)"},{value: "274", desc:"Striation (Undertide)"},{value: "275", desc:"Stripes (Undertide)"},{value: "131", desc:"Toxin (Undertide)"},
 {value: "121", desc:"Trail (Undertide)"},{value: "271", desc:"Weaver (Undertide)"}],
 
 "Aether": [{value: "157", desc:"Alloy (Aether)"},{value: "319", desc:"Bee (Aether)"},{value: "163", desc:"Blaze (Aether)"},{value: "148", desc:"Blend (Aether)"},
@@ -303,7 +318,7 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "387", desc:"Larvae (Aether)"},{value: "402", desc:"Loam (Aether)"},{value: "329", desc:"Malachite (Aether)"},{value: "494", desc:"Marlin (Aether)"},
 {value: "160", desc:"Morph (Aether)"},{value: "151", desc:"Myrid (Aether)"},{value: "158", desc:"Noxtide (Aether)"},{value: "159", desc:"Paint (Aether)"},
 {value: "330", desc:"Paisley (Aether)"},{value: "165", desc:"Patchwork (Aether)"},{value: "331", desc:"Peregrine (Aether)"},{value: "152", desc:"Rosette (Aether)"},
-{value: "234", desc:"Saddle (Aether)"},{value: "332", desc:"Safari (Aether)"},{value: "153", desc:"Saturn (Aether)"},{value: "336", desc:"Sludge (Aether)"},
+{value: "234", desc:"Saddle (Aether)"},{value: "332", desc:"Safari (Aether)"},{value: "153", desc:"Saturn (Aether)"}, {value: "611", desc: "Silkspot (Aether)"}, {value: "336", desc:"Sludge (Aether)"},
 {value: "161", desc:"Spinner (Aether)"},{value: "335", desc:"Spire (Aether)"},{value: "333", desc:"Striation (Aether)"},{value: "334", desc:"Stripes (Aether)"},
 {value: "162", desc:"Thread (Aether)"},{value: "284", desc:"Weaver (Aether)"}],
 
@@ -315,7 +330,7 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "449", desc:"Lode (Sandsurge)"},{value: "195", desc:"Malachite (Sandsurge)"},{value: "209", desc:"Marbled (Sandsurge)"},{value: "212", desc:"Marlin (Sandsurge)"},
 {value: "203", desc:"Morph (Sandsurge)"},{value: "188", desc:"Myrid (Sandsurge)"},{value: "199", desc:"Noxtide (Sandsurge)"},{value: "201", desc:"Paint (Sandsurge)"},
 {value: "394", desc:"Paisley (Sandsurge)"},{value: "448", desc:"Peregrine (Sandsurge)"},{value: "198", desc:"Rosette (Sandsurge)"},{value: "189", desc:"Saddle (Sandsurge)"},
-{value: "204", desc:"Safari (Sandsurge)"},{value: "197", desc:"Saturn (Sandsurge)"},{value: "190", desc:"Seraph (Sandsurge)"},{value: "208", desc:"Sludge (Sandsurge)"},
+{value: "204", desc:"Safari (Sandsurge)"},{value: "197", desc:"Saturn (Sandsurge)"},{value: "190", desc:"Seraph (Sandsurge)"}, {value: "612", desc: "Silkspot (Sandsurge)"}, {value: "208", desc:"Sludge (Sandsurge)"},
 {value: "441", desc:"Spinner (Sandsurge)"},{value: "187", desc:"Spire (Sandsurge)"},{value: "210", desc:"Striation (Sandsurge)"},{value: "211", desc:"Stripes (Sandsurge)"},
 {value: "445", desc:"Tear (Sandsurge)"},{value: "202", desc:"Trail (Sandsurge)"},{value: "287", desc:"Weaver (Sandsurge)"}],
 
@@ -325,8 +340,8 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "260", desc:"Hypnotic (Auraboa)"},{value: "247", desc:"Jester (Auraboa)"},{value: "261", desc:"Lacquer (Auraboa)"},{value: "241", desc:"Larvae (Auraboa)"},
 {value: "403", desc:"Loam (Auraboa)"},{value: "502", desc:"Lode (Auraboa)"},{value: "495", desc:"Marlin (Auraboa)"},{value: "255", desc:"Morph (Auraboa)"},
 {value: "240", desc:"Myrid (Auraboa)"},{value: "254", desc:"Paint (Auraboa)"},{value: "244", desc:"Paisley (Auraboa)"},{value: "243", desc:"Peregrine (Auraboa)"},
-{value: "251", desc:"Riopa (Auraboa)"},{value: "248", desc:"Rosette (Auraboa)"},{value: "239", desc:"Saddle (Auraboa)"},{value: "504", desc:"Seraph (Auraboa)"},
-{value: "503", desc:"Sludge (Auraboa)"},{value: "258", desc:"Striation (Auraboa)"},{value: "259", desc:"Stripes (Auraboa)"},{value: "506", desc:"Tear (Auraboa)"},
+{value: "251", desc:"Riopa (Auraboa)"},{value: "248", desc:"Rosette (Auraboa)"},{value: "239", desc:"Saddle (Auraboa)"}, {value: "566", desc: "Saturn (Auraboa)"}, {value: "504", desc:"Seraph (Auraboa)"},
+{value: "613", desc: "Silkspot (Auraboa)"}, {value: "503", desc:"Sludge (Auraboa)"},{value: "258", desc:"Striation (Auraboa)"},{value: "259", desc:"Stripes (Auraboa)"},{value: "506", desc:"Tear (Auraboa)"},
 {value: "501", desc:"Thread (Auraboa)"},{value: "253", desc:"Weaver (Auraboa)"},{value: "262", desc:"Woven (Auraboa)"}],
 
 "Dusthide": [{value: "553", desc:"Alloy (Dusthide)"},{value: "545", desc:"Arowana (Dusthide)"},{value: "310", desc:"Bee (Dusthide)"},
@@ -377,7 +392,17 @@ const secondaryGenes ={"Modern": [{value: "411", desc:"Affection"},{value: "17",
 {value: "473", desc:"Mottle (Thorntail)"},{value: "477", desc:"Paint (Thorntail)"},{value: "470", desc:"Paisley (Thorntail)"},{value: "472", desc:"Rosette (Thorntail)"},
 {value: "462", desc:"Saddle (Thorntail)"},{value: "476", desc:"Sarcophagus (Thorntail)"},{value: "465", desc:"Seraph (Thorntail)"},{value: "490", desc:"Signal (Thorntail)"},
 {value: "468", desc:"Silkspot (Thorntail)"},{value: "483", desc:"Spinner (Thorntail)"},{value: "485", desc:"Striation (Thorntail)"},{value: "464", desc:"Sugarplum (Thorntail)"},
-{value: "479", desc:"Tear (Thorntail)"},{value: "459", desc:"Warp (Thorntail)"},{value: "474", desc:"Weaver (Thorntail)"}]};
+{value: "479", desc:"Tear (Thorntail)"},{value: "459", desc:"Warp (Thorntail)"},{value: "474", desc:"Weaver (Thorntail)"}],
+
+"Chorus": [{value: "608", desc: "Alloy (Chorus)"}, {value: "585", desc: "Bee (Chorus)"}, {value: "574", desc: "Blaze (Chorus)"}, {value: "586", desc: "Breakup (Chorus)"}, {value: "596", desc: "Butterfly (Chorus)"}, {value: "568", desc: "Celebration (Chorus)"},
+{value: "571", desc: "Chess (Chorus)"}, {value: "575", desc: "Coil (Chorus)"}, {value: "599", desc: "Diamondback (Chorus)"}, {value: "597", desc: "Edged (Chorus)"}, {value:"590", desc: "Facet (Chorus)"}, {value: "591", desc: "Fissure (Chorus)"},
+{value: "589", desc: "Flair (Chorus)"}, {value: "607", desc: "Flick (Chorus)"}, {value: "604", desc: "Foam (Chorus)"}, {value: "578", desc: "Hatch (Chorus)"}, {value: "602", desc: "Hawkmoth (Chorus)"}, {value: "592", desc: "Jester (Chorus)"},
+{value: "569", desc: "Kylix (Chorus)"}, {value: "605", desc: "Lacquer (Chorus)"}, {value: "570", desc: "Larvae (Chorus)"}, {value: "601", desc: "Loam (Chorus)"}, {value: "582", desc: "Lode (Chorus)"}, {value: "577", desc: "Loop (Chorus)"}, 
+{value: "573", desc: "Malachite (Chorus)"}, {value: "603", desc: "Marbled (Chorus)"}, {value: "583", desc: "Marlin (Chorus)"}, {value: "593", desc: "Mottle (Chorus)"}, {value: "595", desc: "Myrid (Chorus)"}, {value: "598", desc: "Paint (Chorus)"}, 
+{value: "567", desc: "Rex (Chorus)"}, {value: "572", desc: "Saddle (Chorus)"}, {value: "588", desc: "Seraph (Chorus)"}, {value: "600", desc: "Spinner (Chorus)"}, {value: "579", desc: "Spire (Chorus)"}, {value: "606", desc: "Striation (Chorus)"},
+{value: "587", desc: "Sugarplum (Chorus)"}, {value: "594", desc: "Swallowtail (Chorus)"}, {value: "580", desc: "Tear (Chorus)"}, {value: "584", desc: "Thread (Chorus)"}, {value: "576", desc: "Warp (Chorus)"}, {value: "581", desc: "Weaver (Chorus)"}]};
+                                                            
+                                                
 
 //tertiary genes - sorted by modern and each ancient breed for easier insertions
 const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", desc: "Capsule"},{value:"1", desc: "Circuit"},{value:"13", desc: "Contour"},
@@ -399,7 +424,7 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"28", desc: "Smoke (Gaoler)"}, {value:"388", desc: "Soap (Gaoler)"}, {value:"99", desc: "Sparkle (Gaoler)"}, {value:"407", desc: "Spores (Gaoler)"},
 {value:"71", desc: "Stained (Gaoler)"}, {value:"343", desc: "Starfall (Gaoler)"}, {value:"346", desc: "Thorns (Gaoler)"}, {value:"195", desc: "Thundercrack (Gaoler)"},
 {value:"29", desc: "Thylacine (Gaoler)"}, {value:"542", desc: "Trickmurk (Gaoler)"}, {value:"31", desc: "Underbelly (Gaoler)"}, {value:"2", desc: "Veined (Gaoler)"},
-{value:"35", desc: "Weathered (Gaoler)"}, {value:"389", desc: "Whiskers (Gaoler)"}, {value:"34", desc: "Wintercoat (Gaoler)"}],
+{value:"35", desc: "Weathered (Gaoler)"}, {value:"389", desc: "Whiskers (Gaoler)"}, {value:"34", desc: "Wintercoat (Gaoler)"}, {value: "622", desc: "Eclipse (Gaoler)"}],
 
 "Banescale": [{value:"401", desc: "Blossom (Banescale)"}, {value:"310", desc: "Brightshine (Banescale)"}, {value:"74", desc: "Capsule (Banescale)"}, {value:"164", desc: "Carnivore (Banescale)"},
 {value:"46", desc: "Contour (Banescale)"}, {value:"50", desc: "Crackle (Banescale)"}, {value:"41", desc: "Fans (Banescale)"}, {value:"43", desc: "Filigree (Banescale)"},
@@ -410,7 +435,7 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"159", desc: "Soap (Banescale)"}, {value:"98", desc: "Sparkle (Banescale)"}, {value:"160", desc: "Spines (Banescale)"}, {value:"406", desc: "Spores (Banescale)"},
 {value:"42", desc: "Squiggle (Banescale)"}, {value:"69", desc: "Stained (Banescale)"}, {value:"344", desc: "Thorns (Banescale)"}, {value:"476", desc: "Thundercrack (Banescale)"},
 {value:"426", desc: "Trickmurk (Banescale)"}, {value:"39", desc: "Trimmings (Banescale)"}, {value:"52", desc: "Underbelly (Banescale)"}, {value:"313", desc: "Warrior (Banescale)"},
-{value:"48", desc: "Wraith (Banescale)"}],
+{value:"48", desc: "Wraith (Banescale)"}, {value: "619", desc: "Eclipse (Banescale)"}],
 
 "Veilspun": [{value:"78", desc: "Angler (Veilspun)"}, {value:"65", desc: "Beetle (Veilspun)"}, {value:"396", desc: "Blossom (Veilspun)"}, {value:"63", desc: "Branches (Veilspun)"},
 {value:"169", desc: "Brightshine (Veilspun)"}, {value:"56", desc: "Capsule (Veilspun)"}, {value:"167", desc: "Carnivore (Veilspun)"}, {value:"392", desc: "Contour (Veilspun)"},
@@ -434,7 +459,7 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"211", desc: "Riot (Aberration)"}, {value:"390", desc: "Rockbreaker (Aberration)"}, {value:"92", desc: "Scales (Aberration)"}, {value:"204", desc: "Skeletal (Aberration)"},
 {value:"205", desc: "Smirch (Aberration)"}, {value:"96", desc: "Sparkle (Aberration)"}, {value:"206", desc: "Spines (Aberration)"}, {value:"404", desc: "Spores (Aberration)"},
 {value:"207", desc: "Stained (Aberration)"}, {value:"485", desc: "Starfall (Aberration)"}, {value:"208", desc: "Thorns (Aberration)"}, {value:"311", desc: "Thundercrack (Aberration)"},
-{value:"93", desc: "Thylacine (Aberration)"}, {value:"132", desc: "Underbelly (Aberration)"}, {value:"91", desc: "Veined (Aberration)"}],
+{value:"93", desc: "Thylacine (Aberration)"}, {value:"132", desc: "Underbelly (Aberration)"}, {value:"91", desc: "Veined (Aberration)"}, {value: "621", desc: "Eclipse (Aberration)"}],
 
 "Undertide": [{value:"246", desc: "Angler (Undertide)"}, {value:"267", desc: "Blossom (Undertide)"}, {value:"248", desc: "Branches (Undertide)"}, {value:"170", desc: "Brightshine (Undertide)"},
 {value:"111", desc: "Capsule (Undertide)"}, {value:"165", desc: "Carnivore (Undertide)"}, {value:"117", desc: "Circuit (Undertide)"}, {value:"249", desc: "Contour (Undertide)"},
@@ -464,7 +489,7 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"152", desc: "Sparkle (Aether)"}, {value:"153", desc: "Spines (Aether)"}, {value:"332", desc: "Spores (Aether)"}, {value:"145", desc: "Stained (Aether)"},
 {value:"209", desc: "Starfall (Aether)"}, {value:"148", desc: "Stinger (Aether)"}, {value:"339", desc: "Tentacles (Aether)"}, {value:"333", desc: "Thorns (Aether)"},
 {value:"334", desc: "Thylacine (Aether)"}, {value:"271", desc: "Trickmurk (Aether)"}, {value:"144", desc: "Underbelly (Aether)"}, {value:"335", desc: "Veined (Aether)"},
-{value:"583", desc: "Wavecrest (Aether)"}, {value:"154", desc: "Whiskers (Aether)"}, {value:"155", desc: "Wish (Aether)"}],
+{value:"583", desc: "Wavecrest (Aether)"}, {value:"154", desc: "Whiskers (Aether)"}, {value:"155", desc: "Wish (Aether)"}, {value: "620", desc: "Eclipse (Aether)"}],
 
 "Sandsurge": [{value:"173", desc: "Augment (Sandsurge)"}, {value:"470", desc: "Batty (Sandsurge)"}, {value:"174", desc: "Beard (Sandsurge)"}, {value:"398", desc: "Blossom (Sandsurge)"},
 {value:"189", desc: "Branches (Sandsurge)"}, {value:"410", desc: "Capsule (Sandsurge)"}, {value:"403", desc: "Carnivore (Sandsurge)"}, {value:"183", desc: "Chitin (Sandsurge)"},
@@ -551,7 +576,22 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"522", desc: "Skeletal (Thorntail)"}, {value:"523", desc: "Space (Thorntail)"}, {value:"524", desc: "Spectre (Thorntail)"}, {value:"525", desc: "Spines (Thorntail)"},
 {value:"526", desc: "Stained (Thorntail)"}, {value:"540", desc: "Sweet (Thorntail)"}, {value:"527", desc: "Tentacles (Thorntail)"}, {value:"541", desc: "Trickmurk (Thorntail)"},
 {value:"528", desc: "Tusked (Thorntail)"}, {value:"529", desc: "Underbelly (Thorntail)"}, {value:"530", desc: "Wish (Thorntail)"}, {value:"531", desc: "Wool (Thorntail)"},
-{value:"532", desc: "Yarn (Thorntail)"}]};
+{value:"532", desc: "Yarn (Thorntail)"}],
+
+"Chorus": [{value: "638", desc: "Angler (Chorus)"}, {value: "662", desc: "Augment (Chorus)"}, {value: "625", desc: "Bark (Chorus)"}, {value: "639", desc: "Barnacle (Chorus)"},
+      {value: "640", desc: "Batty (Chorus)"}, {value: "627", desc: "Belfry (Chorus)"}, {value: "632", desc: "Blossom (Chorus)"}, {value: "628", desc: "Candlelight (Chorus)"},
+      {value: "633", desc: "Carnivore (Chorus)"}, {value: "661", desc: "Chimera (Chorus)"}, {value: "629", desc: "Chitin (Chorus)"}, {value: "635", desc: "Contour (Chorus)"},
+      {value: "636", desc: "Darts (Chorus)"}, {value: "637", desc: "Diaphanous (Chorus)"}, {value: "645", desc: "Eclosion (Chorus)"}, {value: "646", desc: "Featherbeard (Chorus)"},
+      {value: "663", desc: "Firebreather (Chorus)"}, {value: "666", desc: "Fishbone (Chorus)"}, {value: "671", desc: "Flameforger (Chorus)"}, {value: "664", desc: "Flecks (Chorus)"},
+      {value: "654", desc: "Flutter (Chorus)"}, {value: "665", desc: "Ghost (Chorus)"}, {value: "655", desc: "Glitch (Chorus)"}, {value: "670", desc: "Hoard (Chorus)"},
+      {value: "656", desc: "Jellyfish (Chorus)"}, {value: "657", desc: "Jewels (Chorus)"}, {value: "631", desc: "Kelpie (Chorus)"}, {value: "668", desc: "Kumo (Chorus)"},
+      {value: "630", desc: "Maw (Chorus)"}, {value: "658", desc: "Mist (Chorus)"}, {value: "659", desc: "Mop (Chorus)"}, {value: "667", desc: "Opal (Chorus)"}, 
+      {value: "660", desc: "Plumage (Chorus)"}, {value: "634", desc: "Quartz (Chorus)"}, {value: "650", desc: "Soap (Chorus)"}, {value: "653", desc: "Spectre (Chorus)"},
+      {value: "651", desc: "Spines (Chorus)"}, {value: "652", desc: "Stained (Chorus)"}, {value: "673", desc: "Starfall (Chorus)"}, {value: "669", desc: "Thylacine (Chorus)"},
+      {value: "649", desc: "Tusked (Chorus)"}, {value: "644", desc: "Underbelly (Chorus)"}, {value: "626", desc: "Vitrail (Chorus)"}, {value: "647", desc: "Willow (Chorus)"},
+      {value: "648", desc: "Wool (Chorus)"}
+]};
+                                                
 
 const colours = {"Maize": "#FFFDEA", "Cream": "#FFEFDC", "Antique": " #D8D6CD", "White": "#FFFFFF", "Moon": "#D8D7D8", "Ice": "#EBEFFF", "Orca": "#E0DFFF",
     "Platinum": "#C8BECE", "Silver": "#BBBABF", "Dust": "#9C9C9E", "Grey": "#808080", "Smoke": "#9494A9", "Gloom": "#535264",

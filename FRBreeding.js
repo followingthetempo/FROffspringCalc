@@ -8,7 +8,7 @@ const primary =  {"1": primaryGenes.Modern, "2": primaryGenes.Modern, "3": prima
         "20": primaryGenes.Aberration, "22": primaryGenes.Aether, "24": primaryGenes.Auraboa, "18": primaryGenes.Banescale,
         "27": primaryGenes.Cirrus, "25": primaryGenes.Dusthide, "26": primaryGenes.Everlux,
         "17": primaryGenes.Gaoler, "23": primaryGenes.Sandsurge, "29": primaryGenes.Thorntail,
-        "21": primaryGenes.Undertide, "19": primaryGenes.Veilspun, "28": primaryGenes.Vigil};
+        "21": primaryGenes.Undertide, "19": primaryGenes.Veilspun, "28": primaryGenes.Vigil, "30": primaryGenes.Chorus};
 
 const secondary =  {"1": secondaryGenes.Modern, "2": secondaryGenes.Modern, "3": secondaryGenes.Modern, "4": secondaryGenes.Modern, 
         "5": secondaryGenes.Modern, "6": secondaryGenes.Modern, "7": secondaryGenes.Modern, 
@@ -18,7 +18,7 @@ const secondary =  {"1": secondaryGenes.Modern, "2": secondaryGenes.Modern, "3":
         "20": secondaryGenes.Aberration, "22": secondaryGenes.Aether, "24": secondaryGenes.Auraboa, "18": secondaryGenes.Banescale,
         "27": secondaryGenes.Cirrus, "25": secondaryGenes.Dusthide, "26": secondaryGenes.Everlux,
         "17": secondaryGenes.Gaoler, "23": secondaryGenes.Sandsurge, "29": secondaryGenes.Thorntail,
-        "21": secondaryGenes.Undertide, "19": secondaryGenes.Veilspun, "28": secondaryGenes.Vigil};
+        "21": secondaryGenes.Undertide, "19": secondaryGenes.Veilspun, "28": secondaryGenes.Vigil, "30": secondaryGenes.Chorus};
 
 const tertiary =  {"1": tertiaryGenes.Modern, "2": tertiaryGenes.Modern, "3": tertiaryGenes.Modern, "4": tertiaryGenes.Modern, 
         "5": tertiaryGenes.Modern, "6": tertiaryGenes.Modern, "7": tertiaryGenes.Modern, 
@@ -28,7 +28,7 @@ const tertiary =  {"1": tertiaryGenes.Modern, "2": tertiaryGenes.Modern, "3": te
         "20": tertiaryGenes.Aberration, "22": tertiaryGenes.Aether, "24": tertiaryGenes.Auraboa, "18": tertiaryGenes.Banescale,
         "27": tertiaryGenes.Cirrus, "25": tertiaryGenes.Dusthide, "26": tertiaryGenes.Everlux,
         "17": tertiaryGenes.Gaoler, "23": tertiaryGenes.Sandsurge, "29": tertiaryGenes.Thorntail,
-        "21": tertiaryGenes.Undertide, "19": tertiaryGenes.Veilspun, "28": tertiaryGenes.Vigil};
+        "21": tertiaryGenes.Undertide, "19": tertiaryGenes.Veilspun, "28": tertiaryGenes.Vigil, "30": tertiaryGenes.Chorus};
         
 
 const father = document.getElementsByName('father')[0];
