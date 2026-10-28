@@ -1,22 +1,24 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #d2e9ff;
-  background-image: url("https://64.media.tumblr.com/a5cbdf9f87bd7dcb737c1ee81df0cb59/tumblr_inline_mns7vmgGqW1qz4rgp.png");
+  background-image: url("https://64.media.tumblr.com/8e0382ad4aa82cc010d5575465deff89/tumblr_mqvzpi9RgI1sdgezwo3_400.gifv");
   margin: 0;
 
 }
 
 h1 {
-    font-family: Arial,sans-serif;
     font-size:35px;
     background-color:#7fbdf7;
     padding-bottom:5px;
     margin-bottom:5px;
+    text-align: center;
     
 }
 
 h2 {
     margin-bottom: 5px;
+    margin-left: 10px; 
+    text-align: center;
 }
 
 select {
@@ -34,12 +36,15 @@ p {
 
 table {
     border-collapse: separate;
-    border-spacing: 5px;
+    border-spacing: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th, td {
     margin-top: 0px;
     padding: 5px; 
+    
     
 }
 
@@ -60,15 +65,23 @@ button {
 }
 
 .show-chances { 
-    border-style: outset;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #164B70;
+    border-radius: 25px;
     margin-left: 15px;
     margin-right: 15px;
     height: 450;
+    background-color: rgb(251, 254, 255, 0.5);
 }
 
 .show-offspring { 
-    border-style: outset;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #164B70;
+    border-radius: 25px;
     margin-left: 15px;
     margin-right: 15px;
     height: 450;
+    background-color: rgb(251, 254, 255, 0.5);
 }
