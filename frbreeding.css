@@ -9,6 +9,10 @@ body {
 h1 {
     font-size:35px;
     background-color:#7fbdf7;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 25px;
     padding-bottom:5px;
     margin-bottom:5px;
     text-align: center;
