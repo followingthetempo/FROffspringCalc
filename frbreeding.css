@@ -49,7 +49,6 @@ th, td {
     margin-top: 0px;
     padding: 5px; 
     
-    
 }
 
 button {
@@ -62,10 +61,13 @@ button {
 
 .probabilitybox {
     flex: 1;
+    margin-bottom: 15px;
 }
 
 .offspringbox { 
     flex: 1;
+    margin-bottom: 15px;
+    
 }
 
 .show-chances { 
@@ -75,7 +77,7 @@ button {
     border-radius: 25px;
     margin-left: 15px;
     margin-right: 15px;
-    height: 450;
+    height: 100%;
     background-color: rgb(251, 254, 255, 0.5);
 }
 
@@ -84,8 +86,8 @@ button {
     border-width: 2px;
     border-color: #164B70;
     border-radius: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
-    height: 450;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
     background-color: rgb(251, 254, 255, 0.5);
 }
