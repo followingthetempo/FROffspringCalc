@@ -485,9 +485,8 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 
 "Aether": [{value:"316", desc: "Angler (Aether)"}, {value:"336", desc: "Blossom (Aether)"}, {value:"317", desc: "Braids (Aether)"}, {value:"318", desc: "Branches (Aether)"},
 {value:"319", desc: "Capsule (Aether)"}, {value:"163", desc: "Carnivore (Aether)"}, {value:"135", desc: "Circuit (Aether)"}, {value:"136", desc: "Contour (Aether)"},
-{value:"320", desc: "Crackle (Aether)"}, {value:"424", desc: "Crystalline (Aether)"}, {value:"321", desc: "Diaphanous (Aether)"}, {value:"322", desc: "Fans (Aether)"},
-{value:"306", desc: "Firebreather (Aether)"}, {value:"328", desc: "Firefly (Aether)"}, {value:"337", desc: "Fishbone (Aether)"}, {value:"340", desc: "Flameforger (Aether)"},
-{value:"323", desc: "Flecks (Aether)"}, {value:"141", desc: "Flutter (Aether)"}, {value:"413", desc: "Gecko (Aether)"}, {value:"137", desc: "Gembond (Aether)"},
+{value:"320", desc: "Crackle (Aether)"}, {value:"424", desc: "Crystalline (Aether)"}, {value:"321", desc: "Diaphanous (Aether)"}, {value: "620", desc: "Eclipse (Aether)"}, 
+{value:"322", desc: "Fans (Aether)"}, {value:"306", desc: "Firebreather (Aether)"}, {value:"328", desc: "Firefly (Aether)"}, {value:"337", desc: "Fishbone (Aether)"}, {value:"340", desc: "Flameforger (Aether)"}, {value:"323", desc: "Flecks (Aether)"}, {value:"141", desc: "Flutter (Aether)"}, {value:"413", desc: "Gecko (Aether)"}, {value:"137", desc: "Gembond (Aether)"},
 {value:"324", desc: "Ghost (Aether)"}, {value:"138", desc: "Glowtail (Aether)"}, {value:"139", desc: "Keel (Aether)"}, {value:"325", desc: "Koi (Aether)"},
 {value:"142", desc: "Lace (Aether)"}, {value:"586", desc: "Magpie (Aether)"}, {value:"143", desc: "Mandibles (Aether)"}, {value:"326", desc: "Medusa (Aether)"},
 {value:"428", desc: "Mistral (Aether)"}, {value:"140", desc: "Monarch (Aether)"}, {value:"327", desc: "Nudibranch (Aether)"}, {value:"329", desc: "Ornaments (Aether)"},
@@ -496,7 +495,7 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"152", desc: "Sparkle (Aether)"}, {value:"153", desc: "Spines (Aether)"}, {value:"332", desc: "Spores (Aether)"}, {value:"145", desc: "Stained (Aether)"},
 {value:"209", desc: "Starfall (Aether)"}, {value:"148", desc: "Stinger (Aether)"}, {value:"339", desc: "Tentacles (Aether)"}, {value:"333", desc: "Thorns (Aether)"},
 {value:"334", desc: "Thylacine (Aether)"}, {value:"271", desc: "Trickmurk (Aether)"}, {value:"144", desc: "Underbelly (Aether)"}, {value:"335", desc: "Veined (Aether)"},
-{value:"583", desc: "Wavecrest (Aether)"}, {value:"154", desc: "Whiskers (Aether)"}, {value:"155", desc: "Wish (Aether)"}, {value: "620", desc: "Eclipse (Aether)"}],
+{value:"583", desc: "Wavecrest (Aether)"}, {value:"154", desc: "Whiskers (Aether)"}, {value:"155", desc: "Wish (Aether)"}],
 
 "Sandsurge": [{value:"173", desc: "Augment (Sandsurge)"}, {value:"470", desc: "Batty (Sandsurge)"}, {value:"174", desc: "Beard (Sandsurge)"}, {value:"398", desc: "Blossom (Sandsurge)"},
 {value:"189", desc: "Branches (Sandsurge)"}, {value:"410", desc: "Capsule (Sandsurge)"}, {value:"403", desc: "Carnivore (Sandsurge)"}, {value:"183", desc: "Chitin (Sandsurge)"},
@@ -589,17 +588,17 @@ const tertiaryGenes = {"Modern": [{value: "0", desc: "Basic"}, {value: "18", des
 {value:"532", desc: "Yarn (Thorntail)"}],
 
 "Chorus": [{value: "638", desc: "Angler (Chorus)"}, {value: "662", desc: "Augment (Chorus)"}, {value: "625", desc: "Bark (Chorus)"}, {value: "639", desc: "Barnacle (Chorus)"},
-      {value: "640", desc: "Batty (Chorus)"}, {value: "627", desc: "Belfry (Chorus)"}, {value: "632", desc: "Blossom (Chorus)"}, {value: "628", desc: "Candlelight (Chorus)"},
-      {value: "633", desc: "Carnivore (Chorus)"}, {value: "661", desc: "Chimera (Chorus)"}, {value: "629", desc: "Chitin (Chorus)"}, {value: "635", desc: "Contour (Chorus)"},
-      {value: "636", desc: "Darts (Chorus)"}, {value: "637", desc: "Diaphanous (Chorus)"}, {value: "645", desc: "Eclosion (Chorus)"}, {value: "646", desc: "Featherbeard (Chorus)"},
-      {value: "663", desc: "Firebreather (Chorus)"}, {value: "666", desc: "Fishbone (Chorus)"}, {value: "671", desc: "Flameforger (Chorus)"}, {value: "664", desc: "Flecks (Chorus)"},
-      {value: "654", desc: "Flutter (Chorus)"}, {value: "665", desc: "Ghost (Chorus)"}, {value: "655", desc: "Glitch (Chorus)"}, {value: "670", desc: "Hoard (Chorus)"},
-      {value: "656", desc: "Jellyfish (Chorus)"}, {value: "657", desc: "Jewels (Chorus)"}, {value: "631", desc: "Kelpie (Chorus)"}, {value: "668", desc: "Kumo (Chorus)"},
-      {value: "630", desc: "Maw (Chorus)"}, {value: "658", desc: "Mist (Chorus)"}, {value: "659", desc: "Mop (Chorus)"}, {value: "667", desc: "Opal (Chorus)"}, 
-      {value: "660", desc: "Plumage (Chorus)"}, {value: "634", desc: "Quartz (Chorus)"}, {value: "650", desc: "Soap (Chorus)"}, {value: "653", desc: "Spectre (Chorus)"},
-      {value: "651", desc: "Spines (Chorus)"}, {value: "652", desc: "Stained (Chorus)"}, {value: "673", desc: "Starfall (Chorus)"}, {value: "669", desc: "Thylacine (Chorus)"},
-      {value: "649", desc: "Tusked (Chorus)"}, {value: "644", desc: "Underbelly (Chorus)"}, {value: "626", desc: "Vitrail (Chorus)"}, {value: "647", desc: "Willow (Chorus)"},
-      {value: "648", desc: "Wool (Chorus)"}
+{value: "640", desc: "Batty (Chorus)"}, {value: "627", desc: "Belfry (Chorus)"}, {value: "632", desc: "Blossom (Chorus)"}, {value: "628", desc: "Candlelight (Chorus)"},
+{value: "633", desc: "Carnivore (Chorus)"}, {value: "661", desc: "Chimera (Chorus)"}, {value: "629", desc: "Chitin (Chorus)"}, {value: "635", desc: "Contour (Chorus)"},
+{value: "636", desc: "Darts (Chorus)"}, {value: "637", desc: "Diaphanous (Chorus)"}, {value: "645", desc: "Eclosion (Chorus)"}, {value: "646", desc: "Featherbeard (Chorus)"},
+{value: "663", desc: "Firebreather (Chorus)"}, {value: "666", desc: "Fishbone (Chorus)"}, {value: "671", desc: "Flameforger (Chorus)"}, {value: "664", desc: "Flecks (Chorus)"},
+{value: "654", desc: "Flutter (Chorus)"}, {value: "665", desc: "Ghost (Chorus)"}, {value: "655", desc: "Glitch (Chorus)"}, {value: "670", desc: "Hoard (Chorus)"},
+{value: "656", desc: "Jellyfish (Chorus)"}, {value: "657", desc: "Jewels (Chorus)"}, {value: "631", desc: "Kelpie (Chorus)"}, {value: "668", desc: "Kumo (Chorus)"},
+{value: "630", desc: "Maw (Chorus)"}, {value: "658", desc: "Mist (Chorus)"}, {value: "659", desc: "Mop (Chorus)"}, {value: "667", desc: "Opal (Chorus)"}, 
+{value: "660", desc: "Plumage (Chorus)"}, {value: "634", desc: "Quartz (Chorus)"}, {value: "650", desc: "Soap (Chorus)"}, {value: "653", desc: "Spectre (Chorus)"},
+{value: "651", desc: "Spines (Chorus)"}, {value: "652", desc: "Stained (Chorus)"}, {value: "673", desc: "Starfall (Chorus)"}, {value: "669", desc: "Thylacine (Chorus)"},
+{value: "649", desc: "Tusked (Chorus)"}, {value: "644", desc: "Underbelly (Chorus)"}, {value: "626", desc: "Vitrail (Chorus)"}, {value: "647", desc: "Willow (Chorus)"},
+{value: "648", desc: "Wool (Chorus)"}
 ]};
                                                 
 
